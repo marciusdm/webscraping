@@ -2,5 +2,5 @@
 
 Article about web-scraping work on Wikipedia to get a list of songs that reached number one on the American Billboard Hot 100.
 
-Click [here](https://bit.ly/3KX1g3P) to read.  
-Click [here](https://github.com/marciusdm/webscraping/blob/main/scrapy_billboard/billboard.zip) to download the source code of the application described in the article
+* Click [here](https://bit.ly/3KX1g3P) to read.
+* Click [here](https://github.com/marciusdm/webscraping/blob/main/scrapy_billboard/billboard.zip) to download the source code of the application described in the article

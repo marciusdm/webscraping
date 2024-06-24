@@ -1,5 +1,6 @@
 # Projetos de web-scraping
 Código-fonte dos projetos de web-scraping
+Source codes from my webscrapimg projects
 
 ## Lista de projetos:
 * Uma aplicação prática de web-scraping para extrair músicas que chegaram ao primeiro lugar da parada norte-americana Billboard Hot 100: https://bit.ly/3KXoFlE

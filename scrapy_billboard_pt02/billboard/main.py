@@ -52,39 +52,41 @@ def get_top_10_songs_by_number_of_weeks(df):
     df_count["song_artist"] = df_count.apply(lambda row: row.song + " - " + row.artist.upper(), axis=1)
     return df_count.sort_values(by="date", ascending=False)[0:10]
 
-def display_graphics(df):
-    st.subheader("Ranking dos artistas que mais figuraram no topo da parada")
-    df_grouped_artist = df.groupby("artist", as_index=False)
-    st.markdown("#### Por número de semanas")
-    st.write(alt.Chart(
-        get_top10_artists_by_weeks(df_grouped_artist),
-    ).mark_bar().encode(
-        y=alt.Y("artist:N", axis=Axis(title='Artista')).sort("-x"),
-        x=alt.X('date:Q',  axis=Axis(title="Total de semanas em 1º lugar")),
-        tooltip=[
+def display_graphics(df, filtered_by_artist):
+    if(not filtered_by_artist):
+        st.subheader("Ranking dos artistas que mais figuraram no topo da parada")
+        df_grouped_artist = df.groupby("artist", as_index=False)
+        st.markdown("#### Por número de semanas")
+        st.write(alt.Chart(
+            get_top10_artists_by_weeks(df_grouped_artist),
+        ).mark_bar().encode(
+            y=alt.Y("artist:N", axis=Axis(title='Artista')).sort("-x"),
+            x=alt.X('date:Q',  axis=Axis(title="Total de semanas em 1º lugar")),
+            tooltip=[
+                alt.Tooltip("artist", title="Artista:"),
+                alt.Tooltip("date", title="Total de semanas em 1ºlugar:")
+            ]
+        ))
+        # st.bar_chart(get_top10_artists_by_weeks(df_grouped_artist), horizontal=True)
+        st.markdown("#### Por número de músicas")
+        st.write(alt.Chart(
+            get_top10_artists_by_song(df_grouped_artist),
+        ).mark_bar().encode(
+            y=alt.Y("artist:N", axis=Axis(title='Artista')).sort("-x"),
+            x=alt.X('song:Q',  axis=Axis(title='Quantidade de Músicas')),
+            tooltip=[
             alt.Tooltip("artist", title="Artista:"),
-            alt.Tooltip("date", title="Total de semanas em 1ºlugar:")
+            alt.Tooltip("song", title="Qtde. de músicas:"),
         ]
-    ))
-    # st.bar_chart(get_top10_artists_by_weeks(df_grouped_artist), horizontal=True)
-    st.markdown("#### Por número de músicas")
-    st.write(alt.Chart(
-        get_top10_artists_by_song(df_grouped_artist),
-    ).mark_bar().encode(
-        y=alt.Y("artist:N", axis=Axis(title='Artista')).sort("-x"),
-        x=alt.X('song:Q',  axis=Axis(title='Quantidade de Músicas')),
-        tooltip=[
-        alt.Tooltip("artist", title="Artista:"),
-        alt.Tooltip("song", title="Qtde. de músicas:"),
-    ]
-    ))
+        ))
+
     # st.bar_chart(get_top10_artists_by_song(df_grouped_artist), horizontal=True)
     st.subheader("As músicas que mais tempo permaneceram em primeiro lugar ")
     st.write(alt.Chart(
         get_top_10_songs_by_number_of_weeks(df),
     ).mark_bar().encode(
         y=alt.Y("song_artist:N",axis=Axis(title="Música")).sort("-x"),
-        x=alt.X('date:Q', axis=Axis(title="Total de semanas em 1º lugar")),
+        x=alt.X('date:Q', axis=Axis(title="Total de semanas em 1º lugar", tickMinStep=1)),
         tooltip=[
             alt.Tooltip("artist", title="Artista:"),
             alt.Tooltip("song", title="Música:"),
@@ -99,7 +101,7 @@ def load_panel():
     st.header("Exibindo lista de músicas que atingiram o topo da parada Billboard Hot 100")
     data_load_state = st.text('Carregando dados...')
     #sleep(2)
-    get_data()
+    #get_data()
     df = pd.read_json('items.json')
     df["link_chart"] = df.apply(lambda row: f"https://www.billboard.com/charts/hot-100/{row.date:%Y-%m-%d}", axis=1)
     # <editor-fold desc="Sidebar">
@@ -117,16 +119,15 @@ def load_panel():
     # </editor-fold>
     # <editor-fold desc="Data">
     (min, max) = st.session_state.years
-    is_filterd_by_artist = False
     filtered_df = df[(df["year"] >= min) & (df["year"] <= max)]
     artists = sorted(filtered_df["artist"].unique())
     st.sidebar.subheader("Filtro por artista")
     st.sidebar.selectbox("Artista", artists, index=None, key="artist")
     if "artist" in st.session_state.keys() and st.session_state.artist:
         filtered_df = filtered_df[filtered_df["artist"] == st.session_state.artist]
-        is_filterd_by_artist = True
+        is_filtered_by_artist = True
     else:
-        is_filterd_by_artist = False
+        is_filtered_by_artist = False
     st.dataframe(filtered_df,
                  column_config={"sequential_no": "Sequencial",
                                 "date": st.column_config.DateColumn(
@@ -143,8 +144,7 @@ def load_panel():
                  )
 
     data_load_state.info(f"{filtered_df.shape[0]} registro(s) carregado(s)")
-    if not is_filterd_by_artist:
-        display_graphics(filtered_df)
+    display_graphics(filtered_df, is_filtered_by_artist)
     # </editor-fold>
 
 
@@ -155,4 +155,4 @@ def get_data():
 
 if __name__ == '__main__':
     load_panel()
-    # get_data()
+    #get_data()

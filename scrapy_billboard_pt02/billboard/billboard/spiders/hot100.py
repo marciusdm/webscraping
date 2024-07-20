@@ -2,7 +2,7 @@ from time import sleep
 
 import scrapy
 from scrapy.loader import ItemLoader
-from scrapy.loader.processors import TakeFirst
+from itemloaders.processors import TakeFirst
 
 from billboard.items import BillboardItem
 

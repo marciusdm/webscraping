@@ -7,5 +7,7 @@ Source codes from my webscrapimg projects
 <a href="README_en.md"> <img src="https://flagsapi.com/US/flat/32.png" title=" Versão em inglês desta página" alt="versão em inglês deste arquivo" /></a>
 
 ## Lista de projetos:
-* Uma aplicação prática de web-scraping para extrair músicas que chegaram ao primeiro lugar da parada norte-americana Billboard Hot 100: https://bit.ly/3KXoFlE
+* Uma aplicação prática de web-scraping para extrair músicas que chegaram ao primeiro lugar da parada norte-americana Billboard Hot 100 (parte 1 - extraindo os dados): https://bit.ly/3KXoFlE
   *  [Código-fonte](https://github.com/marciusdm/webscraping/tree/main/scrapy_billboard) utilizado no projeto
+* Uma aplicação prática de web-scraping para extrair músicas que chegaram ao primeiro lugar da parada norte-americana Billboard Hot 100 (parte 2 - exibindo os dados): https://bit.ly/4fcywlx
+   *  [Código-fonte](https://github.com/marciusdm/webscraping/tree/main/scrapy_billboard_pt02) utilizado no projeto  

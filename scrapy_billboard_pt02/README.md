@@ -6,3 +6,18 @@
 Continuação de artigo em sobre um trabalho de web-scraping na Wikipedia para pegar uma lista de músicas que alcançaram o primeiro lugar na Billboard Hot 100 americana.   
 * Clique [aqui](https://bit.ly/4fcywlx) para a leitura.   
 * Clique [aqui](https://github.com/marciusdm/webscraping/raw/main/scrapy_billboard_pt02/billboard_pt02.zip) para baixar o coódigo fonte da aplicação descrita no artigo
+
+Para executar a aplicação mostrada no artigo, descompcte o arquivo .zip, crie um ambiente virtual e a seguir instale as bibliotecas streamlit e scrapy.  Recomenda-se utilizar um ambiente de desenvolvimenteo, como o PyCharm ou o VSCode.
+Para instalar o Streamlit e o Scrapy execute os comandos:
+```
+pip install streamlit
+pip install scrapy
+```
+Acesse o terminal e vá para o diretório billboard:
+```
+cd billboard
+```
+Para rodar a aplicação execute:
+```
+streamlit rum main.py
+```

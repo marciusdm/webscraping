@@ -4,5 +4,7 @@
 Source code from web-scraping projects Source codes from my webscrapimg projects
 
 Project list:
-* A practical web-scraping application to extract songs that reached number one on the North American Billboard Hot 100 chart: https://bit.ly/3KX1g3P
+* A practical web-scraping application to extract songs that reached number one on the North American Billboard Hot 100 chart: https://bit.ly/3KX1g3P (part 1 - obtaining data)
    * [Source code](https://github.com/marciusdm/webscraping/raw/main/scrapy_billboard/billboard.zip) used in this project
+* A practical web-scraping application to extract songs that reached number one on the North American Billboard Hot 100 chart: https://bit.ly/46g0x7H (part 2 - displaying data)
+  * [Source code](https://github.com/marciusdm/webscraping/raw/main/scrapy_billboard_pt02/billboard_pt02.zip) used in this project

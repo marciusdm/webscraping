@@ -1,0 +1,555 @@
+state_region,city,school,first_name,middle_name,last_name,job_title,mail,phone
+Southern California,Anaheim,Fairmont Schools,Julie,,Weems,Director of Counseling,jweems@fairmontschools.com,
+Southern California,Anaheim,Fairmont Schools,Justin,,Voss,Director of College Counseling,jvoss@fairmontschools.com,
+Southern California,Anaheim,Fairmont Schools,Nancy,,Nguyen,Academic & College Counselor 10th-12th Grade,nnguyen@fairmontschools.com,
+Southern California,Anaheim,Fairmont Schools,Darryl,,Foy,Academic & College Counselor 10th-12th Grade,dfoy@fairmontschools.com,
+Northern California,Burlingame,Mercy High School,Meave,Fallon,Wards,Substitute Counselor,mward@mercyhsb.com,(650) 762-1170
+Northern California,Burlingame,Mercy High School,Elisabeth,,Franco,"Academic Counselor, Counseling",,(650) 762-1170
+Northern California,Burlingame,Mercy High School,Francesca,,Ohanessian,College Counselor,fohanessian@mercyhsb.com,(650) 762-1151
+Northern California,Burlingame,Mercy High School,Caroline,,O'Sullivan,Counselor,cosullivan@mercyhsb.com,(650) 762-1142
+Northern California,Burlingame,Mercy High School,Joy,,Phillips,Counselor,jphillips@mercyhsb.com,(650) 762-1140
+Southern California,El Segundo,Vistamar School,Gregg,,Murray,Director of Life Planning,greggmurray@vistamarschool.org,
+Southern California,El Segundo,Vistamar School,Lupe,,Chac?n,Life Planning Associate,lupechacon@vistamarschool.org,
+Southern California,El Segundo,Vistamar School,Julie,,Crum,Life Planning Associate,juliecrum@vistamarschool.org,
+Northern California,Hayward,Moreau Catholic High School,Stacey,,Ferreira,"Counseling Department Chair, College & Academic Counselor, Saints and Scholars",sferreira@moreaucatholic.org,(510) 881-4360
+Northern California,Hayward,Moreau Catholic High School,Jonathan,,Aguilar,College & Academic Counselor,jaguilar@moreaucatholic.org,(510) 881-4300
+Northern California,Hayward,Moreau Catholic High School,Juan,Carlos,Rodriguez,College & Academic Counselor,jrodriguez@moreaucatholic.org,(510) 881-4361
+Northern California,Hayward,Moreau Catholic High School,Katricia,,Sanchez,College & Academic Counselor,ksanchez@moreaucatholic.org,(510) 881-4300
+Washington,Tacoma,Bellarmine Preparatory School,Cameron,,Irving,Counselor - Chair,irvingc@bellarmineprep.org,
+Washington,Tacoma,Bellarmine Preparatory School,Tawanna,,Wilson,Counselor,wilsont@bellarmineprep.org,
+Washington,Tacoma,Bellarmine Preparatory School,Chris,,Scotti,Counselor,scottic@bellarmineprep.org,"(253) 752-7701, Ext. 799"
+Washington,Tacoma,Bellarmine Preparatory School,Katie,,Keene,Counselor,keenek@bellarmineprep.org,
+Washington,Tacoma,Bellarmine Preparatory School,Jeannie,,Hamilton,Administrative Assistant,hamiltonj@bellarmineprep.org,
+Southern California,San Juan Capistrano,St. Margaret's Episcopal School,Elise,M.,Rodriguez,Director of College Counseling,elise.rodriguez@smes.org,"(949) 661-0108, Ext. 1273"
+Southern California,San Juan Capistrano,St. Margaret's Episcopal School,Amy,,Warren,Senior Associate Director of College Counseling,amy.warren@smes.org,"(949) 661-0108, Ext. 1324"
+Southern California,San Juan Capistrano,St. Margaret's Episcopal School,Erica,,Huerta,Associate Director of College Counseling,erica.huerta@smes.org,"(949) 661-0108, Ext. 1207"
+Southern California,San Juan Capistrano,St. Margaret's Episcopal School,Elizabeth,,Kelly,College Counseling Assistant,elizabeth.kelly@smes.org,(949) 276-5781
+Northern California,Mountain View,Saint Francis High School,Marylynne,,Rodriguez,Guidance and College Counseling Chair,marylynnerodriguez@sfhs.com,Ext. 306
+Northern California,Mountain View,Saint Francis High School,Carly,,Polisso,Guidance & College Counseling Administration,carlypolisso@sfhs.com,
+Northern California,Pleasanton,The Quarry Lane School,Ms. Shannon,,Harrison,College Counselor,sharrison@quarrylane.org,
+Northern California,Pleasanton,The Quarry Lane School,Ashley,,Mcwilliams,Academic College Counselor,amcwilliams@quarrylane.org,
+Northern California,Pleasanton,The Quarry Lane School,Ms. Sandra,,Toms,College Counselor,stoms@quarrylane.org,
+Northern California,San Jose,The Harker School,Kevin,Lum,Lung,College Counselor,kevin.lumlung@harker.org,(408) 345-9279
+Northern California,San Jose,The Harker School,Andrew,,Quinn,College Counselor,andrew.quinn@harker.org,(408) 345-9603
+Northern California,San Jose,The Harker School,Martin,,Walsh,College Counselor,martin.walsh@harker.org,(408) 345-9270
+Northern California,San Jose,Valley Christian Schools - High School,Erik,,Ellefsen,Academic and College Counselor Athletic Recruitment Advisor,eellefsen@vcs.net,(408) 513-2408
+Northern California,San Jose,Valley Christian Schools - High School,Sonia,,Avilucea,Academic and College Counselor Highlands Affiliate,savilucea@vcs.net,(408) 513-2493
+Northern California,San Jose,Valley Christian Schools - High School,Annette,,Davis,Academic and College Counselor,adavis@vcs.net,
+Northern California,San Jose,Valley Christian Schools - High School,Heidi,,Vals,Head Academic and College Counselor,hvals@vcs.net,(408) 513-2499
+Northern California,San Jose,Valley Christian Schools - High School,Abra,,Martinez,Academic Support Counselor,aarmour@vcs.net,(408) 513-2537
+Northern California,San Mateo,The Nueva School,Gavin,,Bradley,Director of College Counseling,gbradley@nuevaschool.org,
+Northern California,San Mateo,The Nueva School,Paul,,Gallagher,Associate Director of College Counseling,pgallagher@nuevaschool.org,
+Northern California,San Mateo,The Nueva School,Phil,,Moreno,Associate Director of College Counseling,pmoreno@nuevaschool.org,
+Northern California,San Mateo,The Nueva School,Erika,,Rojas,College Counseling Operations Manager,erojas@nuevaschool.org,(650) 235-7100
+Southern California,Woodland Hills,Louisville High School,Marybeth,,Competelli,Director of College and Academic Counseling,mcompetelli@louisvillehs.org,"(818) 346-8812, Ext. 1025"
+Southern California,Woodland Hills,Louisville High School,Alicia,,Castro,Associate Director of Academic and College Counseling,acastro@louisvillehs.org,"(818) 346-8812, Ext. 1026"
+Southern California,Woodland Hills,Louisville High School,Sasha,,Holmes,Director of Counseling & 9th/10th Grade Counselor,sholmes@louisvillehs.org,"(818) 346-8812, Ext. 1024"
+Southern California,Woodland Hills,Louisville High School,Hannah,,Ghamsari,Counseling Intern,hghamsari@louisvillehs.org,"(818) 346-8812, Ext. 1023"
+Northern California,San Jose,Valley Christian Schools - High School,Hea,Jin,Thomas,Academic and College Counselor,hthomas@vcs.net,(408) 513-2686
+Northern California,San Jose,Valley Christian Schools - High School,Amy,,Smith,Academic and College Counselor,asmith@vcs.net,"(408) 513-2513, Ext 6457"
+Northern California,San Jose,Valley Christian Schools - Junior High School,Erik,,Ellefsen,Academic and College Counselor Athletic Recruitment Advisor,eellefsen@vcs.net,(408) 513-2408
+Northern California,San Jose,Valley Christian Schools - Junior High School,Sonia,,Avilucea,Academic and College Counselor Highlands Affiliate,savilucea@vcs.net,(408) 513-2493
+Northern California,San Jose,Valley Christian Schools - Junior High School,Annette,,Davis,Academic and College Counselor,adavis@vcs.net,
+Northern California,San Jose,Valley Christian Schools - Junior High School,Heidi,,Vals,Head Academic and College Counselor,hvals@vcs.net,(408) 513-2499
+Northern California,San Jose,Valley Christian Schools - Junior High School,Hea,Jin,Thomas,Academic and College Counselor,hthomas@vcs.net,(408) 513-2686
+Northern California,San Jose,Valley Christian Schools - Junior High School,Amy,,Smith,Academic and College Counselor,asmith@vcs.net,"(408) 513-2513, Ext 6457"
+Northern California,Santa Cruz,Kirby School,Cathy,,Conley,College Counselor,cconley@kirby.org,
+Northern California,San Mateo,Jun?pero Serra High School,Mrs. Jane,,Zoucha,Director of Counseling,jzoucha@serrahs.com,"(650) 345-8207, Ext 6122"
+Northern California,San Mateo,Jun?pero Serra High School,Mrs. Karen,,Ghidossi,Counselor,kghidossi@serrahs.com,"(650) 345-8207, Ext 6134"
+Northern California,San Mateo,Jun?pero Serra High School,Mrs. Kristin,,Hanson,Counselor,khanson@serrahs.com,
+Northern California,San Mateo,Jun?pero Serra High School,Mr. Chris,Quiery,'01,Counselor,cquiery@serrahs.com,"(650) 345-8207, Ext 6133"
+Northern California,San Mateo,Jun?pero Serra High School,Mr. Daniel,,Arias,Counselor,darias@serrahs.com,"(650) 345-8207, Ext 6149"
+Northern California,San Rafael,The Marin School,Brad,,Jackson,Director of College Counseling,bjackson@themarinschool.org,
+Northern California,San Mateo,Junipero Serra High School,Mrs. Jane,,Zoucha,Director of Counseling,jzoucha@serrahs.com,"(650) 345-8207, Ext 6122"
+Northern California,San Mateo,Junipero Serra High School,Mrs. Karen,,Ghidossi,Counselor,kghidossi@serrahs.com,"(650) 345-8207, Ext 6134"
+Northern California,San Mateo,Junipero Serra High School,Mrs. Kristin,,Hanson,Counselor,khanson@serrahs.com,
+Northern California,San Mateo,Junipero Serra High School,Mr. Chris,Quiery,'01,Counselor,cquiery@serrahs.com,"(650) 345-8207, Ext 6133"
+Northern California,Sunnyvale,The King's Academy,Anita,,Katter,College & Academic Counselor,,Ext 4257
+Northern California,Sunnyvale,The King's Academy,Julie,,Meadows,College & Academic Counselor,,Ext 4343
+Northern California,Sunnyvale,The King's Academy,Rebecca,,Threewitt,College & Academic Counselor,,Ext 4226
+Northern California,Sunnyvale,The King's Academy,David,,Yu,College & Academic Counselor,,Ext 4359
+Northern California,San Mateo,Junipero Serra High School,Mr. Daniel,,Arias,Counselor,darias@serrahs.com,"(650) 345-8207, Ext 6149"
+Northern California,San Jose,Presentation High School,Chelsea,,Althouse,Co-Director of College Counseling,calthouse@presentationhs.org,"(408) 264-1664, Ext. 2038"
+Northern California,San Jose,Presentation High School,Jasmin,,Miller,College Counselor,jrmiller@presentationhs.org,
+Northern California,San Rafael,Marin Academy,Michelle,,Baird,College Counseling Office Assistant,mbaird@ma.org,
+Northern California,San Rafael,Marin Academy,Denisse,,Melgar,Associate Director of College Counseling,dmelgar@ma.org,
+Northern California,San Rafael,Marin Academy,Jake,,Sisco,Associate Director of College Counseling,jsisco@ma.org,
+Northern California,San Jose,Bellarmine College Preparatory,Katy,,Murphy,Director of College Counseling,kmurphy@bcp.org,
+Northern California,San Jose,Bellarmine College Preparatory,Grace,,Hartman,College Counselor,ghartman@bcp.org,
+Northern California,San Jose,Bellarmine College Preparatory,Sneha,,Kohirkar,College Counselor,skohirkar@bcp.org,
+Northern California,San Jose,Bellarmine College Preparatory,Marc,,Mcgee,College Counselor,mmcgee@bcp.org,
+Northern California,San Jose,Bellarmine College Preparatory,Joe,,Romano,College Counselor,jromano@bcp.org,
+Northern California,San Mateo,Stanbridge Academy,Mary,,Stadler,Director of Counseling,mstadler@stanbridgeacademy.org,
+Northern California,San Mateo,Stanbridge Academy,James,H,Warren,College Counselor,jwarren@stanbridgeacademy.org,
+Southern California,West Hills,Chaminade College Preparatory,Derreatha,,Juarez,Director of Counseling,djuarez@chaminade.org,"(818) 347-8300, Ext. 3326"
+Southern California,West Hills,Chaminade College Preparatory,Brother,Tom,Fahy,International Students,tfahy@chaminade.org,"(818) 347-8300, Ext. 3359"
+Southern California,West Hills,Chaminade College Preparatory,June,,Hunter,Counselors,jhunter@chaminade.org,"(818) 347-8300, Ext. 3323"
+Southern California,West Hills,Chaminade College Preparatory,Janet,,Svolos,Counselors,jsvolos@chaminade.org,"(818) 347-8300, Ext. 3350"
+Northern California,San Anselmo,San Domenico School,Melissa,,Martin,Co-Director of College Counseling,mmartin@sandomenico.org,(415) 258-1979
+Northern California,San Anselmo,San Domenico School,Katie,,May,Co-Director of College Counseling,kmay@sandomenico.org,(415) 258-1990
+Southern California,West Hills,Chaminade College Preparatory,Scott,,Borchart,Counselors,sborchart@chaminade.org,"(818) 347-8300, Ext. 3322"
+Southern California,West Hills,Chaminade College Preparatory,Daniel,,Johnson,Counselors,djohnson@chaminade.org,"(818) 347-8300, Ext. 3337"
+Southern California,West Hills,Chaminade College Preparatory,Kaylee,,Bryden,Counselors,kbryden@chaminade.org,"(818) 347-8300, Ext. 3327"
+Southern California,West Hills,Chaminade College Preparatory,Yesmin,,Wall,Counselors,ywall@chaminade.org,"(818) 347-8300, Ext. 3325"
+Southern California,West Hills,Chaminade College Preparatory,Kathryn,,Howard,"LMFT, PPS, CWA",khoward@chaminade.org,"(818) 347-8300, Ext. 3358"
+Southern California,West Hills,Chaminade College Preparatory,Linda,,Althoff,Administration Assistant,lalthoff@chaminade.org,"(818) 347-8300, Ext. 3323"
+Northern California,Pacifica,Pacific Bay Christian School,Susan,,Solomon,Director of Academic and College Counseling Administration,ssolomon@pacbay.org,
+Northern California,San Jose,Cambrian Academy,David,,Delgado,College Preparatory Counseling,ddelgado@cambrianacademy.org,
+Northern California,San Jose,Notre Dame High School,Cecilia,,Perkins,Director of College Counseling,cperkins@ndsj.org,"(408) 294-1113, Ext. 2111"
+Northern California,San Jose,Notre Dame High School,Heather,,Valentine,Head Counselor,hvalentine@ndsj.org,"(408) 294-1113, Ext. 2136"
+Northern California,San Jose,Notre Dame High School,Artemisa,,Bobst,Counselor,abobst@ndsj.org,"(408) 294-1113, Ext. 2112"
+Northern California,San Jose,Notre Dame High School,Carmen,,Barcena-Barba,Counselor,cbarcena@ndsj.org,"(408) 294-1113, Ext. 2192"
+Northern California,San Jose,Notre Dame High School,Hoa,,Le,Counselor,hle@ndsj.org,"(408) 294-1113, Ext. 2161"
+Southern California,San Juan Capistrano,Jserra Catholic High School,Olivia,,Huie,Director of Counseling,ohuie@jserra.org,"(949) 493-9307, Ext. 1123"
+Southern California,San Juan Capistrano,Jserra Catholic High School,Myra,,Castro,Director of University Relations and College Events,mcastro@jserra.org,"(949) 493-9307, Ext. 7125"
+Southern California,San Pedro,"Rolling Hills Prep, Renaissance Schools, and Reach",Chuck,,Liddiard,College Counselor,cliddiard@rollinghillsprep.org,"(310) 791-1101, Ext. 110"
+Southern California,San Pedro,"Rolling Hills Prep, Renaissance Schools, and Reach",Erasmo,,Fuentes,College Counselor,efuentes@rollinghilllsprep.org,"(310) 791-1101, Ext. 169"
+Southern California,San Juan Capistrano,Jserra Catholic High School,Monica,,Celaya,Academic and College Counselor,mcelaya@jserra.org,"(949) 493-9307, Ext. 1110"
+Southern California,San Juan Capistrano,Jserra Catholic High School,Nicole,,Demirbey,Counseling and Learning & Academic Support (LAS),ndemirbey@jserra.org,"(949) 493-9307, Ext. 1107"
+Southern California,San Juan Capistrano,Jserra Catholic High School,Shelley,,Dever,Registrar,sdever@jserra.org,"(949) 493-9307, Ext. 1156"
+Southern California,San Juan Capistrano,Jserra Catholic High School,Michele,,Murphy,Academic and College Counselor,mmurphy@jserra.org,"(949) 493-9020, Ext. 1155"
+Southern California,San Juan Capistrano,Jserra Catholic High School,Jenna,,Nelson,Academic and College Counselor,jnelson@jserra.org,"(949) 493-9307, Ext. 1118"
+Southern California,San Juan Capistrano,Jserra Catholic High School,Garrett,,Roldan,Academic and College Counselor,groldan@jserra.org,"(949) 493-9307, Ext. 1135"
+Southern California,San Juan Capistrano,Jserra Catholic High School,Jasmine,,Stofko,Academic and College Counselor,jstofko@jserra.org,"(949) 493-9307, Ext. 1116"
+Northern California,Mountain View,Khan Lab School,Brennan,,Barnard,Director of College Counseling,brennan@khanlabschool.org,
+Southern California,Ross,The Branson School,Matthew,,Lane,Director of College Counseling,matt_lane@branson.org,(415) 455-7127
+Northern California,Monterey,York School,Dean,,Partlow,Director of College Counseling,dpartlow@york.org,
+Northern California,Mountain View,Khan Lab School,Ellie,,Angeletakis,College Counseling Coordinator,ellie@khanlabschool.org,
+Southern California,Ross,The Branson School,Matthew,,Chan,Associate Director of College Counseling,matthew_chan@branson.org,(415) 455-7212
+Northern California,Monterey,Santa Catalina School,Fred,,White,Director of College Counseling,fred.white@santacatalina.org,(831) 655-9339
+Northern California,San Francisco,Drew School,Kristen,,Hansen,Co-Director of College Counseling,kristenhansen@drewschool.org,(415) 430-3713
+Northern California,San Francisco,Drew School,Randolf,,Arguelles,Co-Director of College Counseling,randolfarguelles@drewschool.org,(415) 430-3711
+Northern California,San Francisco,The Bay School of San Francisco,Gina,,Meneni,Director of College Counseling,gmeneni@bayschool.org,Ext. 107
+Northern California,San Francisco,The Bay School of San Francisco,Eric,,Nunez,Associate Director of College Counseling,enunez@bayschool.org,Ext. 144
+Northern California,San Francisco,The Bay School of San Francisco,Ashley,,Terry,Assistant Director of College Counseling,aterry@bayschool.org,Ext. 179
+Northern California,San Francisco,San Francisco University High School,Kate,,Garrett,Interim Director of College Counseling,kate.garrett@sfuhs.org,
+Northern California,Santa Monica,New Roads School,Alejandra,,Bonilla,Director of College Counseling,abonilla@newroads.org,"(310) 828-5582, Ext. 205"
+Northern California,San Francisco,San Francisco University High School,Tyler-Rose,,Veguez,Associate Director of College Counseling,tylerrose.veguez@sfuhs.org,
+Northern California,San Francisco,San Francisco University High School,Elizabeth,Clark,Faris,College Counseling Assistant,elizabeth.faris@sfuhs.org,
+Northern California,Santa Monica,New Roads School,Lacy,,Hall,Assistant Director of College Counseling,lhall@newroads.org,"(310) 828-5582, Ext. 222"
+Northern California,Santa Monica,New Roads School,Flynn,,Linehan,Assistant Director of College Counseling,flinehan@newroads.org,"(310) 828-5582, Ext. 131"
+Northern California,Santa Monica,Crossroads School for Arts & Science,Art,,Mccann,Dean of College Counseling,amccann@xrds.org,(310) 582-4260
+Northern California,Santa Monica,Pacifica Christian High School,Dane,,Fragger,College Counselor,dfragger@pacificachristian.org,(310) 828-7015
+Northern California,Santa Monica,Crossroads School for Arts & Science,Yamilet,Medina,Lopez,Associate Dean of College Counseling,YLopez@xrds.org,310-582-4219
+Northern California,Santa Monica,Crossroads School for Arts & Science,Brianna,,Shepard,Associate Dean of College Counseling,bshepard@xrds.org,(310) 582-4242
+Northern California,Santa Monica,Pacifica Christian High School,Kelly,,Kurtenbach,Academic Counselor,kkurtenbach@pacificachristian.org,(310) 828-7015
+Northern California,San Francisco,San Francisco Waldorf School,Sarah,,anderson,College Counselor,sanderson@sfwaldorf.org,
+Northern California,San Francisco,San Francisco Waldorf School,Diana,,Wuerthner,College & Career Counselor,dweurthner@sfwaldorf.org,
+Northern California,San Francisco,Convent & Stuart Hall,Cesar,,Guerrero,Director of Academic Guidance & College Counseling for Convent & Stuart Hall,cesar.guerrero@sacredsf.org,(415) 345-5809
+Northern California,San Francisco,Convent & Stuart Hall,Rebecca,,Munda,Convent High School College Counseling Director,rebecca.munda@sacredsf.org,(415) 292-3131
+Northern California,San Francisco,Convent & Stuart Hall,Tom,,Esponnette,College Counselor,tom.esponnette@sacredsf.org,(415) 292-3169
+Northern California,San Francisco,Convent & Stuart Hall,Kelly,,Whalen,College Counseling Associate,kelly.whalen@sacredsf.org,
+Northern California,San Francisco,French American International School,Ashley,,Rochman,Co-Director of College Counseling,ashleyr@frenchamericansf.org,(415) 558-2073
+Northern California,San Francisco,French American International School,Alex,,Trempus,Co-Director of College Counseling,alext@frenchamericansf.org,(415) 558-2072
+Northern California,San Francisco,French American International School,Krista,,Klein,Co-Director of College Counseling,kklein@lwhs.org,
+Northern California,San Francisco,French American International School,Gabriela,Ruiz,De Mejia,Associate Director of College Counseling,gmejia@lwhs.org,
+Northern California,San Francisco,French American International School,Kate,,Garrett,Associate Director of College Counseling,,(415) 447-3112
+Northern California,San Francisco,French American International School - International High School,Ashley,,Rochman,Co-Director of College Counseling,ashleyr@frenchamericansf.org,(415) 558-2073
+Northern California,San Francisco,French American International School - International High School,Alex,,Trempus,Co-Director of College Counseling,alext@frenchamericansf.org,(415) 558-2072
+Northern California,San Francisco,French American International School - International High School,Krista,,Klein,Co-Director of College Counseling,kklein@lwhs.org,
+Northern California,San Francisco,French American International School - International High School,Gabriela,Ruiz,De Mejia,Associate Director of College Counseling,gmejia@lwhs.org,
+Northern California,San Francisco,French American International School - International High School,Kate,,Garrett,Associate Director of College Counseling,,(415) 447-3112
+Northern California,San Francisco,Lick-Wilmerding High School,Alayne,,Haggerty,Co-Director of College Counseling,alayne@lwhs.org,
+Northern California,San Francisco,Lick-Wilmerding High School,Krista,,Klein,Co-Director of College Counseling,kklein@lwhs.org,
+Northern California,San Francisco,Lick-Wilmerding High School,Gabriela,Ruiz,De Mejia,Associate Director of College Counseling,gmejia@lwhs.org,
+Northern California,San Francisco,Lick-Wilmerding High School,Marjorie,,Morales,College Counseling Administrative Assistant,mmorales@lwhs.org,
+Northern California,Redwood City,Stanford Online High School,Adam,,Lips,"Ed.D., Director of College Counseling",alips@stanford.edu,
+Northern California,Redwood City,Stanford Online High School,Natalie,,Cooper,Associate Director of College Counseling,nataliecooper@stanford.edu,
+Northern California,Redwood City,Stanford Online High School,Meghan,,Kuhn,Assistant Director of College Counseling,meghankuhn@stanford.edu,
+Northern California,San Francisco,French American International School,Elizabeth,,Faris,College Counseling Assistant,,(415) 447-3112
+Northern California,San Francisco,French American International School - International High School,Elizabeth,,Faris,College Counseling Assistant,,(415) 447-3112
+Northern California,Portola Valley,Woodside Priory School,Colleen,Burson-Ryan,Okpala,Director Of College Counseling,Cbrokpala@Prioryca.Org,(650) 851-6144
+Northern California,Portola Valley,Woodside Priory School,Anya,,Ishida,Associate Director Of College Counseling,Aishida@Prioryca.Org,(650) 851-8226
+Northern California,Portola Valley,Woodside Priory School,Cathy,,Liu,Testing Coordinator,Cliu@Prioryca.Org,
+Northern California,Portola Valley,Woodside Priory School,Nathan,,Mathabane,Associate Director Of College Counseling,Nmath@Prioryca.Org,
+Washington,Tacoma,Charles Wright Academy,Katie,,Ryan,Director of College Counseling,kryan@charleswright.org,(253) 620-8396
+Washington,Tacoma,Charles Wright Academy,Brennan,,Dignan,Associate Director of College Counseling,bdignan@charleswright.org,(253) 620-8341
+Northern California,San Francisco,Jewish Community High School of the Bay,Lauren,,Cook,Dean of College and Gap-Year Advising,lcook@jchsofthebay.org,"(415) 694-5772, Ext 174"
+Northern California,San Francisco,Urban School of San Francisco,Lauren,,Gersick,Director of College Counseling,lgersick@urbanschool.org,
+Northern California,San Francisco,Urban School of San Francisco,Elizabeth,,Harris,Associate Director of College Counseling,eharris@urbanschool.org,
+Northern California,San Francisco,Urban School of San Francisco,Andy,,Schine,College Counselor,aschine@urbanschool.org,
+Northern California,San Francisco,Urban School of San Francisco,Leslie,,Schaffer,College Counseling Associate,lschaffer@urbanschool.org,
+Southern California,Newport Coast,Sage Hill School,Charlie,,Duffy,Associate Director of College Counseling,duffyc@Sagehillschool.org,(949) 219-1389
+Southern California,Newport Coast,Sage Hill School,Annalise,,Miyashiro,Associate Director of College Counseling,miyashiroa@Sagehillschool.org,(949) 270-2362
+Southern California,Newport Coast,Sage Hill School,Lauren,,Popkowski,Associate Director of College Counseling,popkowskil@Sagehillschool.org,(949) 219-1393
+Southern California,Newport Coast,Sage Hill School,Greg,,Mccandless,"Dean of 9th and 10th Grade, College Counseling",mccandlessg@Sagehillschool.org,(949) 219-1390 
+Southern California,Newport Coast,Sage Hill School,Cassie,,Fuenmayor,Associate Director of College Counseling,fuenmayorc@sagehillschool.org,(949) 219-1389
+Southern California,Newport Coast,Sage Hill School,Pavle,,Filipovic,College Counseling Coordinator,filipovicp@Sagehillschool.org,(949) 219-1368
+Washington,Tacoma,Annie Wright Schools,Scottie,Johanna,Hill,Director of College Counseling,scottie_hill@aw.org,
+Northern California,Los Altos,Pinewood School,Marvin,,Coote,Director of College Counseling,mcoote@pinewood.edu,
+Northern California,Los Altos,Pinewood School,Carolyn,,Siegel,Associate Director of College Counseling,csiegel@pinewood.edu,
+Northern California,Lafayette,Bentley School,Archie,,Douglas,Director of College Counseling,adouglas@bentleyschool.org,(925) 900-4025
+Northern California,Lafayette,Bentley School,Kelly,,Mill,Associate Director of College Counseling,kmills@bentleyschool.org,(925) 900-4059
+Northern California,Lafayette,Bentley School,Yancie,,Davis,Associate Director of College Counseling,ydavis@bentleyschool.org,(925) 900-4037
+Northern California,Lafayette,Bentley School,Annie,,Oxenhandler,College Counseling Associate,aoxenhandler@bentleyschool.org,(925) 900-4035
+Northern California,San Francisco,Sterne School,Laura,,Corleto,College Advisor,lcorleto@sterneschool.org,
+Southern California,Studio City,Campbell Hall,Jennifer,,Simpson,Director of College Counseling,simpsoj@campbellhall.org,(818) 505-2458 
+Southern California,Studio City,Campbell Hall,John,,Corona,Associate Director of College Counseling,coronaj@campbellhall.org,(818) 505-2489
+Southern California,Studio City,Campbell Hall,Kimberly,,Oden,Associate Director of College Counseling,odenk@campbellhall.org,(818) 505-5383
+Southern California,Studio City,Campbell Hall,Elisa,,Sagardia,College Counselor,sagarde@campbellhall.org,(818) 505-2419
+Northern California,Pebble Beach,Stevenson School,Martha,,Allen,Director of College Counseling,mallen@Stevensonschool.org,
+Northern California,Pebble Beach,Stevenson School,Kathryn,,Bell,College Center Coordinator,kbell@Stevensonschool.org,
+Northern California,Pebble Beach,Stevenson School,Jonathan,,Burke,Associate Director of College Counseling,jburke@Stevensonschool.org,
+Northern California,Pebble Beach,Stevenson School,Karen,,Hiles,College Counselor,khiles@Stevensonschool.org,
+Northern California,Pebble Beach,Stevenson School,Amy,,Jacobs,College Counselor,ajacobs@Stevensonschool.org,
+Northern California,Pebble Beach,Stevenson School,Ronald,,Provost,College Counselor,rprovost@Stevensonschool.org,
+Northern California,Pebble Beach,Stevenson School,Frank,,Stephenson,College Counselor,fstephenson@Stevensonschool.org,
+Northern California,Palo Alto,Kehillah Jewish High School,Stacey,,Ho,Co-Director of College Counseling,sho@kehillah.org,
+Northern California,Orinda,Orinda Academy,Cyndy,,Gifford-Palermo,College Counselor,cyndy@orindaacademy.org,
+Southern California,Sherman Oaks,The Buckley School,Joseph,,Blassberg,Director of College Counseling,jblassberg@buckley.org,"(818) 783-1610, Ext. 736"
+Southern California,Sherman Oaks,The Buckley School,Joan,,Canzone,Associate Director of College Counseling,jcanzone@buckley.org,"(818) 783-1610, Ext. 735"
+Northern California,Palo Alto,Kehillah Jewish High School,Susan,,Mcguire,Co-Director of College Counseling,smcguire@kehillah.org,
+Southern California,Sherman Oaks,The Buckley School,Aurora,,Ignacio,Associate Director of College Counseling,aignacio@buckley.org,"(818) 783-1610, Ext. 744"
+Southern California,Sherman Oaks,The Buckley School,Jodi,,Pearlman,College Counseling Assistant and Registrar,jpearlman@buckley.org,"(818) 783-1610, Ext. 737"
+Southern California,San Diego,St. Augustine High School,Timothy,,Golden,Counselor,tgolden@sahs.org,"(619) 282-2184, Ext. 5523"
+Southern California,San Diego,St. Augustine High School,Briana,,Colorado,Counselor,bcolorado@sahs.org,"(619) 282-2184, Ext. 5578"
+Southern California,San Diego,St. Augustine High School,Gerald,,Rey,Counselor,jrey@sahs.org,"(619) 282-2184, Ext. 5531"
+Southern California,San Diego,St. Augustine High School,Carl,,Bronson,Counselor,cbronson@sahs.org,"(619) 282-2184, Ext. 5537"
+Southern California,San Diego,Cathedral Catholic High School,Ashley,,Bascom,Dean of Counseling & Wellness,abascom@cathedralcatholic.org,"(858) 523-4000, Ext 1193"
+Southern California,San Diego,Cathedral Catholic High School,Elizabeth,,Bilz,College Counselor,ebilz@cathedralcatholic.org,"(858) 523-4000, Ext. 1192"
+Southern California,San Diego,Cathedral Catholic High School,Colette,,Cope,College Counselor,ccope@cathedralcatholic.org,"(858) 523-4000, Ext 1195"
+Southern California,San Diego,Cathedral Catholic High School,Cassandra,,Rodriguez,College Counselor,crodriguez@cathedralcatholic.org,"(858) 523-4000, Ext. 1199"
+Southern California,San Diego,Cathedral Catholic High School,Julia,,Tushaus,College Counselor,jtushaus@cathedralcatholic.org,"(858) 523-4000, Ext 1196"
+Southern California,San Diego,Academy of Our Lady of Peace,Mrs. Jacqueline,,Wilson,Counselor,jwilson2@aolp.org,"(619) 297-2266, Ext. 134"
+Southern California,San Diego,Academy of Our Lady of Peace,Mrs. Jill,,Hicke,Counselor,jhicke@aolp.org,"(619) 297-2266, Ext. 106"
+Southern California,San Diego,Academy of Our Lady of Peace,Mrs. Anita,,Heveron,Counselor,aheveron@aolp.org,"(619) 297-2266, Ext 133"
+Southern California,San Diego,Academy of Our Lady of Peace,Ms. Hannah,,Cognetti,Counselor,hcognetti@aolp.org,"(619) 297-2266, Ext. 144"
+Southern California,San Diego,Academy of Our Lady of Peace,Ms. Arielle,,Lugn,Counselor,alugn@aolp.org,"(619) 725-9163, Ext. 163"
+Southern California,Santa Barbara,Bishop Garcia Diego High School,Rya,,Carpenter,Director of Counseling,rcarpenter@bishopdiego.org,"(805) 967-1266, Ext. 104"
+Southern California,Santa Barbara,Bishop Garcia Diego High School,Dr. June,,Szabo-Kifer,Director of Resource Services,jszabo@bishopdiego.org,
+Southern California,Santa Barbara,Bishop Garcia Diego High School,Jean,,Anderson,Academic Counselor,janderson@bishopdiego.org,
+Southern California,Santa Barbara,Bishop Garcia Diego High School,Liv,,Gonzalez,Registrar and Counseling Assistant,lgonzalez@bishopdiego.org,"(805) 967-1266, Ext. 119"
+Northern California,Oakland,Bishop O'Dowd High School,Fran,,Warmerdam,Director of Counseling,fwarmerdam@bishopodowd.org,"(510) 577-9100, Ext 601"
+Northern California,Oakland,Bishop O'Dowd High School,Robin,,Lau,Associate Director of College Counseling,rlau@bishopodowd.org,"(510) 577-9100, Ext 616"
+Northern California,Oakland,Bishop O'Dowd High School,Marc,,Dominguez,Counselor,mdominguez@bishopodowd.org,"(510) 577-9100, Ext 604"
+Northern California,Oakland,Bishop O'Dowd High School,Jennifer,,Jeanty,Counselor,jjeanty@bishopodowd.org,"(510) 577-9100, Ext 342"
+Northern California,Oakland,Bishop O'Dowd High School,Meredith,,Parry,Job Title: Counselor,mparry@bishopodowd.org,"(510) 577-9100, Ext 154"
+Northern California,Oakland,Bishop O'Dowd High School,Anto,,Sweeney,Counselor,asweeney@bishopodowd.org,"(510) 577-9100, Ext 343"
+Northern California,Oakland,Bishop O'Dowd High School,Betty,Uribe,'11,Counselor,buribe@bishopodowd.org,"(510) 577-9100, Ext 606"
+Northern California,Oakland,Bishop O'Dowd High School,Juliet,Arechiga,'93,Counselor,jarechiga@bishopodowd.org,"(510) 577-9100, Ext 618"
+Northern California,Oakland,Holy Names High School,Rachel,,Sommerville,College Center Coordinator,rsommerville@hnhsoakland.org,
+Northern California,Oakland,Holy Names High School,Kristen,,Fenn,College Advisors,kfenn@hnhsoakland.org,
+Northern California,Oakland,Holy Names High School,Heidi,,Monical,College Advisors,hmonical@hnhsoakland.org,
+Southern California,San Diego,The Cambridge School,Becky,,Priest,College Counselor,bpriest@cambridgeclassical.org,
+Northern California,Oakland,Head-Royce School,Tania,Castro,Bradt,Director of College Counseling,tbradt@headroyce.org,"(510) 531-1300, Ext 2476"
+Northern California,Oakland,Head-Royce School,Hayley,,Shapland,Associate Director of College Counseling,hshapland@headroyce.org,
+Southern California,San Diego,Francis Parker School,Bob,,Hurley,Dean of College Counseling,bhurley@francisparker.org,"(858) 569-7900, Ext. 4136"
+Southern California,San Diego,Francis Parker School,Jasmin,,Taylor,Director of College Counseling,jtaylor@francisparker.org,"(858) 569-7900, Ext. 4240"
+Northern California,Oakland,The College Preparatory School,Martin,,Bonilla,Director of College Counseling,,"(510) 652-0111, Ext 254"
+Northern California,Oakland,The College Preparatory School,Lisie,,Harlow,College Counseling Assistant/Academic Data Manager,,"(510) 652-0111, Ext 247"
+Northern California,Oakland,The College Preparatory School,Ali,,Underwood,Associate Director of College Counseling,,
+Southern California,Santa Barbara,Laguna Blanca,Matthew,,Struckmeyer,Director of College Counseling,,(805) 969-2874
+Southern California,Santa Barbara,Laguna Blanca,Alexandra,,Goodman,College Counseling Associate,,(805) 696-2873
+Northern California,Oakland,Head-Royce School,Kora,,Shin,Associate Director of College Counseling,kshin@headroyce.org,"(510) 531-1300, Ext 2508"
+Southern California,San Diego,Francis Parker School,Julio,,Mata,Director of College Counseling,jmata@francisparker.org,"(858) 569-7900, Ext. 4110"
+Southern California,San Diego,Francis Parker School,Alain,,Darang,Director of College Counseling,adarang@francisparker.org,"(858) 569-7900, Ext. 4119"
+Northern California,Palo Alto,Castilleja School,Gabrielle,,Mccolgan,Director of College Counseling,gmccolgan@castilleja.org,
+Northern California,Palo Alto,Castilleja School,Alyson,,Tom,Associate Director of College Counseling,atom@castilleja.org,
+Northern California,Palo Alto,Castilleja School,Heidi,,Gallegos,"Registrar, Assistant to the College Counseling office",hgallegos@castilleja.org,
+Washington,Poulsbo,West Sound Academy,Alayna,,Garvin,College Counselor,collegecounselor@westsoundacademy.org,(360) 525 3085
+Northern California,Healdsburg,Rio Lindo Adventist Academy,Renee,,Brassington,School Counselor,rbrassington@riolindo.org,Ext. 135
+Northern California,San Francisco,St. Ignatius College Preparatory,Ms. Brice,,Campoverdi,College Counselor,bcampoverdi@siprep.org,"(415) 731-7500, Ext. 5219"
+Northern California,San Francisco,St. Ignatius College Preparatory,Patrick,,Lorenzo,College Counselor,plorenzo@siprep.org,
+Northern California,San Francisco,St. Ignatius College Preparatory,Ms. Anna,Maria,Vaccaro,"College Counselor, Magis College Advisor",avaccaro@siprep.org,
+Northern California,San Francisco,St. Ignatius College Preparatory,Ms. Ashley,,Withers,"College Counselor, Magis office",awithers@siprep.org,"(415) 731-7500, Ext. 5604"
+Northern California,San Francisco,St. Ignatius College Preparatory,Ms. Stephanie,,Wong,College Counselor,swong@siprep.org,"(415) 731-7500, Ext. 5101"
+Northern California,San Francisco,Sacred Heart Cathedral Preparatory,Dr. Angelica,,Bailon,College Advisor,abailon@shcp.edu,"(415) 775-6626, Ext. 547"
+Northern California,San Francisco,Archbishop Riordan High School,Melanie,,Aguas,Freshman Counselor,maguas@riordanhs.org,"(415) 586-8200, Ext. 502"
+Northern California,San Francisco,ICA Cristo Rey Academy,Melissa,,Ruiz,Director of Guidance,mruiz@icacademy.org,"(415) 824-2052, Ext 59"
+Northern California,San Francisco,Archbishop Riordan High School,Vanessa,,Vincent,Sophomore Counselor,vvincent@riordanhs.org,"(415) 586-8200, Ext. 225"
+Northern California,San Francisco,Archbishop Riordan High School,David,,Lin,Junior Counselor,dlin@riordanhs.org,"(415) 586-8200, Ext. 504"
+Northern California,San Francisco,Archbishop Riordan High School,Vanessa,,Martinez,Senior Counselor,vamartinez@riordanhs.org,"(415) 586-8200, Ext. 224"
+Northern California,San Francisco,ICA Cristo Rey Academy,Gianna,,Benson,College Counselor,gbenson@icacademy.org,"(415) 824-2052, Ext 54"
+Northern California,San Francisco,ICA Cristo Rey Academy,Allyson,,Genger,College Counselor & Alumnae Advisor,agenger@icacademy.org,
+Northern California,San Francisco,Archbishop Riordan High School,Melissa,,Nagar,College Counseling Head,mnagar@riordanhs.org,"(415) 586-8200, Ext. 241"
+Northern California,San Francisco,Archbishop Riordan High School,Mike,,Williams,College Counseling Associate,mwilliams@riordanhs.org,"(415) 586-8200, Ext. 540"
+Florida,Palm Beach Gardens,The Benjamin School,Mrs. Anna,,Wright,Director of College Counseling,anna.wright@thebenjaminschool.org,"(561) 472-5998, Ext. 2432"
+Washington,DC,Sidwell Friends School,Lauren,,Carter,Director of College Counseling,carterl@sidwell.edu,
+Washington,DC,Sidwell Friends School,Lauren,,Fields,Associate Director College Counseling,fieldsl@sidwell.edu,
+Washington,DC,Sidwell Friends School,Matt,,Cunningham,Associate Director College Counseling,cunninghamm@sidwell.edu,
+Washington,DC,Sidwell Friends School,Cynthia,,Kovacs,Associate Director College Counseling,kovacsc@sidwell.edu,
+Florida,Palm Beach Gardens,The Benjamin School,Mrs. Bekka,,Goldberg,Associate Director of College Counseling,bekka.goldberg@thebenjaminschool.org,"(561) 472-5998, Ext. 2408"
+Florida,Palm Beach Gardens,The Benjamin School,Mrs. Adria,,Carr,Registrar/College Counseling Administrative Assistant,adria.carr@thebenjaminschool.org,"(561) 472-5998, Ext. 2400"
+Southern California,Pasadena,Westridge School,Marcie,,Robinson,College Counselor,mrobinson@westridge.org,"(626) 799-1053, Ext. 247"
+Southern California,Pasadena,Polytechnic School,Mark,,Rasic,Director of College Counseling; 11/12th Grade Dean,mrasic@polytechnic.org,(626) 396-6621
+Southern California,Pasadena,Polytechnic School,Eddie,,Pickett,College Counselor; 11/12th Grade Dean,epickett@polytechnic.org,(626) 396-6623
+Washington,Woodinville,Bellevue Christian School,Danielle,,Lopez,Counselor,dlopez@bellevuechristian.org,
+Washington,Woodinville,Bellevue Christian School,Mica,,Winskill,Counselor,mwinskill@bellevuechristian.org,
+Southern California,Pasadena,Westridge School,Kathleen,,O'Reilly,Senior College Counseling Associate,koreilly@westridge.org,"(626) 799-1053, Ext. 292"
+Southern California,Pasadena,Polytechnic School,Garine,,Zetlian,College Counselor; 11/12th Grade Dean,gzetlian@polytechnic.org,(626) 396-6660
+Southern California,Los Angeles,The Archer School for Girls,Ivan,,Hauck,Director of College Guidance,ihauck@archer.org,
+Southern California,Los Angeles,The Archer School for Girls,Stephanie,,Nicolard,College Counselor,sleggins@archer.org,
+Southern California,Los Angeles,The Archer School for Girls,Marla,,Terry,College Guidance Coordinator,mterry@archer.org,
+Southern California,Los Angeles,Archer - The Archer School for Girls,Mr. Ivan,,Hauck,Director of College Guidance,ihauck@archer.org,
+Southern California,Los Angeles,Archer - The Archer School for Girls,Dr. Shanell,,Leggins,Associate Director of College Guidance,sleggins@archer.org,
+Southern California,Los Angeles,Archer - The Archer School for Girls,Ms. Marla,,Terry,College Guidance Coordinator,mterry@archer.org,
+Southern California,Pasadena,La Salle College Preparatory,Ms. Tam,,Ly,Director of Counseling,tly@lasallehs.org,(626) 696-4390
+Southern California,Los Angeles,Brentwood School,Dee-Dee,,Sanders,Director of College Counseling,dsanders@bwscampus.com,(310) 889-2626
+Southern California,Los Angeles,Brentwood School,Yetunde,Daniels,Rubinstein,Associate Director of College Counseling,yrubinstein@bwscampus.com,(310) 889-2763
+Southern California,Los Angeles,Brentwood School,Erin,,Day,Associate Director of College Counseling,eday@bwscampus.com,(310) 889-2761
+Southern California,Los Angeles,Brentwood School,Christopher,,Sharp,"Associate Director of, College Counseling",csharp@bwscampus.com,(310) 889-2619
+Southern California,Los Angeles,Brentwood School,Takirah,,Crenshaw,Associate Director of College Counseling,tcrenshaw@bwscampus.com,(310) 889-2798
+Southern California,Pasadena,La Salle College Preparatory,Ms. Laura,,Ives,Learning Specialist/Counselor,lives@lasallehs.org,(626) 696-4340
+Southern California,Pasadena,La Salle College Preparatory,Mr. Patrick,,Henry,Counselor,mphenry@lasallehs.org,(626) 696-4402
+Southern California,Pasadena,La Salle College Preparatory,Mr. Owen,,Hou,Counselor,ohou@lasallehs.org,(626) 696-4314
+Southern California,Pasadena,La Salle College Preparatory,Mrs. Marcia,,Yu,Counselor,myu@lasallehs.org,(626) 696-4345
+Southern California,Los Angeles,Brentwood School,Riki-Ann,,Serrins,College Counseling Athletic Liaison,rserrins@bwscampus.com,(310) 889-2796
+Southern California,Los Angeles,Brentwood School,Angela,,Olinghouse,Administrative Assistant,aolinghouse@bwscampus.com,(310) 889-2713
+Washington,Seattle,The Northwest School,Erin,,Miller,Director of College Counseling,erin.miller@northwestschool.org,(206) 816-6056
+Washington,Seattle,The Northwest School,Rachel,,Fumia,Associate Director of College Counseling,rachel.fumia@northwestschool.org,(206) 816-6024
+Washington,Seattle,The Northwest School,Sarah,,Porter,College Counselor,sarah.porter@northwestschool.org,(206) 816-6152
+Washington,Seattle,The Northwest School,Gabi,,Dinkin,Admissions & College Counseling Assistant,gabi.dinkin@northwestschool.org,(206) 816-6027
+Washington,Seattle,Seattle Waldorf School,Erich,,Schweikher,College and Career Counselor,eschweikher@seattlewaldorf.org,
+Washington,Seattle,Seattle Waldorf School,Lynne,,Hakim,Counselor,lhakim@seattlewaldorf.org,
+Washington,Seattle,University Prep,Kelly,,Herrington,Director of College Counseling and Student Services,kherrington@universityprep.org,(206) 832-1226
+Washington,Seattle,University Prep,Britten,,Nelson,Associate Director of College Counseling,bnelson@universityprep.org,(206) 832-1111
+Washington,Seattle,University Prep,Wendy,,Robbins,College Counseling Assistant,wrobbins@universityprep.org,(206) 832-1127
+Southern California,Los Angeles,The Jean and Jerry Friedman Shalhevet High School,Mr. Eli,,Shavalian,Director of College Counseling and Academic Guidance,e.shavalian@shalhevet.org,
+Southern California,Los Angeles,The Jean and Jerry Friedman Shalhevet High School,Ms. Priyanka,,Singh,Associate Director of College Counseling and Academic Guidance,p.singh@shalhevet.org,
+Southern California,North Hollywood,Oakwood School,Melissa,,Palmer,"Co-Director of College Counseling, Human Development Teacher",,(818) 732-3007
+Southern California,Los Angeles,Windward School,Molly,,Branch,Dean of College Counseling,mbranch@windwardschool.org,
+Washington,Seattle,Lakeside School,Ari,B.,Worthman,Director,ari.worthman@lakesideschool.org,
+Southern California,Los Angeles,Marlborough School,Monica,,DePriest,Dean of College Counseling,monica.depriest@marlborough.org,
+Southern California,Pasadena,Marantha High School,Mike,,Bell,Dean of College Counseling,,(626) 817-4030
+Southern California,Pasadena,Marantha High School,Charles,,Fields,Admissions & College Prep Counselor,,(626) 817-4033
+Washington,Seattle,The Bush School,Melissa,,Lanctot,Director of College Counseling,melissa.lanctot@bush.edu,
+Washington,Seattle,The Bush School,Jim,,Sargent,Associate Director of College Counseling,james.sargent@bush.edu,
+Washington,Seattle,The Bush School,Courtney,,Elop,Coordinator of College Counseling and Student Success,courtney.elop@bush.edu,
+Southern California,Los Angeles,Wildwood School,Amy,,Abrams,Director of College Counseling,aabrams@wildwood.org,(310) 806-4522
+Southern California,North Hollywood,Oakwood School,Steffany,,Perez,Co-Director of College Counseling,,(818) 732-3006
+Southern California,Los Angeles,Windward School,Becca,,Larson,Dean of College Counseling,blarson@windwardschool.org,
+Southern California,Los Angeles,Windward School,Corey,,Marquetti,Dean of College Counseling,cmarquetti@windwardschool.org,
+Washington,Seattle,Lakeside School,Mal,,Goss,Associate Director,mal.goss@lakesideschool.org,
+Washington,Seattle,Lakeside School,Erin,,Foster,College Counselor,erin.foster@lakesideschool.org,
+Southern California,Los Angeles,Marlborough School,Maggie,,Lucas,Dean of College Counseling,maggie.lucas@marlborough.org,
+Southern California,Los Angeles,Marlborough School,Brian,K.,Smith,Dean of College Counseling,briank.smith@marlborough.org,
+Southern California,Los Angeles,Marlborough School,Eunice,,Ahn,College Counseling and Database Coordinator,eunice.ahn@marlborough.org,
+Southern California,Pasadena,Marantha High School,Tricia,,Goldsworthy,College Counselor,,(626) 817-4034
+Southern California,Pasadena,Marantha High School,Claudia,,Jimenez,School Registrar,,(626) 817-4031
+Southern California,Pasadena,Marantha High School,Teresa,,Petersen,Associate Dean of College Counseling,,(626) 817-4035
+Southern California,Los Angeles,Wildwood School,Andrea,,Campos,Assistant Director of College Counseling,acampos@wildwood.org,(310) 806-4521
+Southern California,Los Angeles,Windward School,Stephanie,,Osimiri,Dean of College Counseling,sosimiri@windwardschool.org,
+Washington,Seattle,Lakeside School,Mark,,Kranwinkle,College Counselor,mark.kranwinkle@lakesideschool.org,
+Washington,Spokane,Saint George's School,Happy,,Avery,Director College Counseling,happy.avery@sgs.org,(509) 464-8789
+Northern California,Menlo Park,Mid-Peninsula High School,Shelley,,Willig,College Advisor,,(650) 321-1991
+Southern California,North Hollywood,Oakwood School,Melissa,,Palmer,Co-Director of College Counseling,mpalmer@oakwoodschool.org,(818) 732-3007
+Southern California,North Hollywood,Oakwood School,Steffany,,Perez,Co-Director of College Counseling,sperez@oakwoodschool.org,(818) 732-3006
+Southern California,North Hollywood,Oakwood School,Carolyn,,Starks,Associate Director of College Counseling,cstarks@oakwoodschool.org,(818) 732-3145
+Southern California,North Hollywood,Oakwood School,Diane,,Wymer,Registrar,dwymer@oakwoodschool.org,(818) 732-3003
+Southern California,Pasadena,Mayfield Senior School,Lynn,,Maloney,Co-Director of College Counseling,,"(626) 799-9121, Ext. 220"
+Southern California,Pasadena,Mayfield Senior School,Debra,,Abbott,College Counseling Assistant/Registrar,,"(626) 799-9121, Ext. 240"
+Southern California,Pasadena,The Waverly School,Lydia,,Boateng,Counselor,lydia@thewaverlyschool.org,
+Southern California,Pasadena,Sequoyah School,Rosanna,,Llorens,Director of College Counseling,rllorens@sequoyahchool.org,"(626) 441-2076, Ext. 329"
+Southern California,Los Angeles,Marymount High School,Philip,"""PJ""",Petrone,Co-Director of College Counseling,,"(310) 472-1205, Ext. 328"
+Southern California,Los Angeles,Marymount High School,Sarah,,Miller,Co-Director of College Counseling,,"(310) 472-1205, Ext. 330"
+Southern California,Los Angeles,Marymount High School,Adrian,,Skrentny,Director of Design Engineering and Academic Data,,"(310) 472-1205, Ext. 205"
+Southern California,Ojai,The Thacher School,Maria,,Morales-Kent,Director of College Counseling,mkent@thacher.org,
+Southern California,Ojai,The Thacher School,Jill,,Manfredi,"Administrative Assistant, College Counseling",jmanfredi@thacher.org,
+Southern California,Ojai,The Thacher School,Czarina,,Hutchins,Associate Director of College Counseling,chutchins@thacher.org,
+Southern California,Ojai,The Thacher School,Judy,,Oberlander,"10th Grade Liaison, College Counseling",joberlander@thacher.org,
+Southern California,Los Angeles,Loyola High School of Los Angeles,Paul,Jordan,'88,Director of Counseling,pjordan@loyolahs.edu,Ext 1513
+Southern California,Los Angeles,Loyola High School of Los Angeles,Mara,,Baltazar,Counselor,mbaltazar@loyolahs.edu,Ext 1514
+Southern California,Los Angeles,Loyola High School of Los Angeles,Ryan,,Bouziane,Counselor,rbouziane@loyolahs.edu,Ext 1505
+Southern California,Los Angeles,Loyola High School of Los Angeles,Daryl,,Crowley,Counselor,dcrowley@loyolahs.edu,Ext 1501
+Southern California,Los Angeles,Loyola High School of Los Angeles,Kelly,,Farland,Counselor,kfarland@loyolahs.edu,Ext 1503
+Southern California,Los Angeles,Loyola High School of Los Angeles,Tom,,Gallagher,Counselor,tgallagher@loyolahs.edu,Ext 1201
+Southern California,Los Angeles,Loyola High School of Los Angeles,Michael,,Denison,Counselor,mdenison@loyolahs.edu,Ext 1502
+Southern California,Los Angeles,Loyola High School of Los Angeles,Gina,,Liberotti,Counselor,gliberotti@loyolahs.edu,Ext 1507
+Southern California,Los Angeles,Loyola High School of Los Angeles,Evelyn,,Mabra,Counselor,emabra@loyolahs.edu,Ext 1508
+Southern California,Los Angeles,Loyola High School of Los Angeles,Kieron,,Miller,Counselor,kmiller@loyolahs.edu,Ext 1506
+Southern California,Los Angeles,Loyola High School of Los Angeles,Jesse,,Rueter,Counselor,jrueter@loyolahs.edu,Ext 1518
+Washington,Seattle,Seattle Preparatory School,Ms. Sandra,,Foy,Director of College Counseling,sfoy@seaprep.org,(206) 577-2109
+Washington,Seattle,Seattle Preparatory School,Ms. Kate,,Goodwin,College Counselor,kgoodwin@seaprep.org,(206) 577-2112
+Washington,Seattle,Seattle Preparatory School,Ms. Janet,,O'Neil,Counseling Assistant,joneil@seaprep.org,(206)577-2211
+Washington,Seattle,Academy Schools,Bruce,,Mcintyre,College and Career Counselor,mcintyre@academyschools.org,
+Southern California,Los Angeles,Geffen Academy,Dr. Mari,,Oropeza,Director of Academic Advising & College Guidance,moropeza@geffenacademy.ucla.edu,
+Southern California,Los Angeles,Pilgrim School,Robin,,Lau,Director of Achievement & College Planning,,(213) 355-5223
+Washington,Bothell,Woodinville Montessori School,Emily,,Van Dyke,College Counselor,evandyke@woodinvillemontessori.org,(425) 420-9767
+Northern California,Burlingame,Mercy High School Burlingame,Meave,Fallon,Wards,Substitute Counselor,mward@mercyhsb.com,(650) 762-1170
+Northern California,Burlingame,Mercy High School Burlingame,Elisabeth,,Franco,"Academic Counselor, Counseling",,(650) 762-1170
+Northern California,Burlingame,Mercy High School Burlingame,Francesca,,Ohanessian,College Counselor,fohanessian@mercyhsb.com,(650) 762-1151
+Northern California,Burlingame,Mercy High School Burlingame,Caroline,,O'Sullivan,Counselor,cosullivan@mercyhsb.com,(650) 762-1142
+Northern California,Burlingame,Mercy High School Burlingame,Joy,,Phillips,Counselor,jphillips@mercyhsb.com,(650) 762-1140
+Northern California,Belmont,Notre Dame Belmont,Dina,,Cunha,Director of College Counseling,dcunha@ndhsb.org,
+Northern California,Belmont,Notre Dame Belmont,Allan,,Gargaritano,Guidance Counselor,agargaritano@ndhsb.org,
+Northern California,Belmont,Crystal Springs Uplands School,Jennifer,,Carleton,Director of College Counseling,jcarleton@csus.org,Ext. 1596
+Northern California,Belmont,Notre Dame Belmont,Stacy,La,Duke,Guidance Counselor & Efs Coordinator,sladuke@ndhsb.org,
+Northern California,Belmont,Notre Dame Belmont,Christina,,Christenson,Guidance Counselor & Efs Coordinator,cchristenson@ndhsb.org,
+Northern California,Belmont,Crystal Springs Uplands School,Peter,,Baxter,Assoc. Director of College Counseling,pbaxter@csus.org,Ext. 1614
+Northern California,Belmont,Crystal Springs Uplands School,Alexis,Richardson,Pagnia,Assoc. Director of College Counseling,arichardson@csus.com,Ext. 1524
+Washington,Sammamish,Eastside Catholic School,Livia,,Matteucci,College Counselor,lmatteucci@eastsidecatholic.org,(425) 295-3030
+Washington,Sammamish,Eastside Catholic School,Cyrus,,Nassersaeid,College Counselor,cnassersaeid@eastsidecatholic.org,(425) 295-3015
+Washington,Seattle,King's Schools,College,,Counselor,Diana Fairchild,dfairchild@kingsschools.org,
+Washington,Seattle,Bishop Blanchet High School,Erin,,Camden,School Counselor,ecamden@bishopblanchet.org,(206) 527-7721
+Washington,Seattle,Bishop Blanchet High School,Katy,,Covert,Academic Counselor,ecamden@bishopblanchet.org,(206) 527-7724
+Washington,Seattle,Bishop Blanchet High School,Meghan,,MacIntyre,School Counselor,mmacintyre@bishopblanchet.org,(206) 527-7724
+Washington,Seattle,Bishop Blanchet High School,Janice,,Moehring,Assistant to Counseling and Student Activities,jmoehring@bishopblanchet.org,(206) 527-7739
+Washington,Seattle,Bishop Blanchet High School,Brian,,Mullen,Academic Counselor,bmullen@bishopblanchet.org,(206) 527-7711
+Washington,Seattle,Bishop Blanchet High School,Heather,,Rabe,School Counselor,hrabe@bishopblanchet.org,(206) 527-7722
+Washington,Seattle,Bishop Blanchet High School,Stephen,,Russell,School Counselor - Department Chair,srussell@bishopblanchet.org,(206) 527-7723
+Washington,Seattle,Bishop Blanchet High School,Janah,Valenzuela,Cardin,Director of International Student Services,jvalenzuela@bishopblanchet.org,(206) 527-7718
+Southern California,La Jolla,The Bishop's School,Wendy,,Chang,Director of College Counseling,wendy.chang@bishops.com,(858) 875-0822
+Southern California,La Jolla,The Bishop's School,Noor,,Haddad,Associate Director of College Counseling,noor.haddad@bishops.com,(858) 875-0780
+Washington,Seattle,Holy Names Academy,Megan,,Diefenbach,College Counselor,,(206) 568-7786
+Washington,Seattle,Holy Names Academy,Anjelica,,Johnson,College Counselor,,(206) 720-7824
+Southern California,La Jolla,The Bishop's School,AJ,,Jezierski,Associate Director of College Counseling,jezierskia@bishops.com,(858) 875-0730
+Southern California,La Jolla,The Bishop's School,Marsha,,Setzer,Associate Director of College Counseling,marsha.setzer@bishops.com,(858) 875-0855
+Southern California,La Jolla,The Bishop's School,Rachael,,Garcia,Registrar,rachael.garcia@bishops.com,(858) 875-0787
+Southern California,La Cañada Flintridge,Flintridge Preparatory School,Eric,,Hallett,College Counselor,ehallett@flintridgeprep.org,"(818) 790-1178, Ext 7704"
+Southern California,La Cañada Flintridge,Flintridge Preparatory School,Brooke,,Yoshino,Director of College Counseling,byoshino@flintridgeprep.org,(818) 949-5520
+Southern California,La Cañada Flintridge,Flintridge Preparatory School,Jodie,,Hare,College Counselor,jhare@flintridgeprep.org,(818) 949-5521
+Northern California,Kentfield,Marin Catholic High School,Trevor,,Smyth,Director of Counseling,tsmyth@marincatholic.org,(415) 464-3834
+Northern California,Kentfield,Marin Catholic High School,Dave,,Basso,Counselor,dbasso@marincatholic.org,(415) 464-3831
+Southern California,La Cañada Flintridge,Flintridge Sacred Heart,Candy,,Navarro,Director of College Counseling and Advising,cnavarro@fsha.org,(626) 685-8308
+Southern California,La Cañada Flintridge,Flintridge Sacred Heart,Andrea,,Zuniga,Associate Director of College Counseling,azuniga@fsha.org,(626) 685-8312
+Southern California,La Cañada Flintridge,Flintridge Sacred Heart,Cheyenne,,Luna,College Counseling/Advising Assistant & Registrar,cluna@fsha.org,(626) 685-8306
+Southern California,La Cañada Flintridge,Flintridge Sacred Heart,Roberto,,Dimas,Religious Studies Teacher / College Counselor,rdimas@fsha.org,(626) 685-8300
+Washington,Redmond,The Bear Creek School,Katherine,,Gomulkiewicz,Dean of College and Academic Advising,katie.gomulkiewicz@tbcs.org,
+Southern California,La Cañada Flintridge,Flintridge Preparatory School,Amanda,,Lem,College Counseling Associate,alem@flintridgeprep.org,(818) 949-5510
+Southern California,La Cañada Flintridge,Flintridge Preparatory School,Olivia,,Corrigan,College Counselor,ocorrigan@flintridgeprep.org,(818) 949-5592
+Northern California,Kentfield,Marin Catholic High School,Mariana,Flores,Chavez,Counselor,mfloreschavez@marincatholic.org,(415) 464-3835
+Northern California,Kentfield,Marin Catholic High School,Marianne,,Hill,Counselor,mahill@marincatholic.org,(415) 464-3833
+Washington,Redmond,The Bear Creek School,Ayoleida,,Paramo,Dean of Academic Advising,ayoleida.paramo@tbcs.org,
+Washington,Redmond,The Bear Creek School,Emily,,Schuldt,Senior Strategic Project Manager,Emily.schuldt@tbcs.org,
+Northern California,Kentfield,Marin Catholic High School,Daisy,,O'Leary,Counselor,doleary@marincatholic.org,(415) 464-3839
+Northern California,Kentfield,Marin Catholic High School,Marlin,,Quintanilla,Counselor,mquintanilla@marincatholic.org,(415) 464-3838
+Northern California,Kentfield,Marin Catholic High School,Gaby,,Rivera,Counseling Dept. Associate,grivera@marincatholic.org,(415) 464-3830
+Washington,Redmond,The Bear Creek School,James,,Woollard,Director of Student Information Systems,,
+Northern California,Kentfield,Marin Catholic High School,Mrs. Lisa,M,Ingels,Therapeutic Counselor,lingels@marincatholic.org,(415) 464-3832
+Northern California,Kentfield,Marin Catholic High School,Diana,,Wilson,Therapeutic Counselor,dwilson@marincatholic.org,(415) 464-3837
+Southern California,La Cañada,St. Francis High School,Mrs. MaryLynne,,Rodriguez,Department Chair Counseling Program,marylynnerodriguez@sfhs.com,
+Washington,Redmond,The Overlake School,Kate,,Asgari,Director of College Counseling,kasgari@overlake.org,(425) 602-7039
+Washington,Redmond,The Overlake School,Tanya,,Cummings,Associate Director of College Counseling,tcummings@overlake.org,(425) 602-7038
+Washington,Redmond,The Overlake School,Regina,,Quiban,College Counseling Assistant,rquiban@overlake.org,(425) 602-7040
+Washington,Redmond,Willows Preparatory School,Mr. Kerry,,Clark,Director of College Counseling,kclark@willowsprep.com,
+Southern California,La Jolla,La Jolla Country Day School,Damien,,Fatongia,Managing Director of College Counseling,dfatongia@ljcds.org,"(858) 453-3440, Ext. 127"
+Southern California,La Jolla,La Jolla Country Day School,Valencia,Valentine,Hamman,Director of College Counseling,vhamman@ljcds.org,"(858) 453-3440, Ext. 145"
+Southern California,La Jolla,La Jolla Country Day School,Tiana,,Kelly,Associate Director of College Counseling,tkelly@ljcds.org,"(858) 453-3440, Ext. 214"
+Southern California,La Jolla,La Jolla Country Day School,May,,Vukotich,"Administrative Assistant, College Counseling",mvukotich@ljcds.org,"(858) 453-3440, Ext. 308"
+Southern California,La Jolla,La Jolla Country Day School,Martin,,Vaughn,Associate Director of College Counseling,mvaughn@ljcds.org,"(858) 453-3440, Ext. 190"
+Southern California,La Jolla,La Jolla Country Day School,Brianna,,Douglass,College Admission Essay Advisor,bdouglass@ljcds.org,"(858) 453-3440, Ext. 767"
+Southern California,La Jolla,La Jolla Country Day School,Anna,,Sudderth,College Admission Essay Advisor,asudderth@ljcds.org,"(858) 453-3440, Ext. 765"
+Northern California,Alameda,Saint Joseph Notre Dame High School,John,,Gunty,Director of Counseling,jgunty@sjnd.org,(510) 523-1526
+Northern California,Alameda,Saint Joseph Notre Dame High School,Nicholas,,Ratto,Learning Services Coordinator & Counseling Admin.,nratto@sjnd.org,(510) 523-1526
+Northern California,Alameda,Saint Joseph Notre Dame High School,Lauren,,Sabia,Personal/Academic Counselor and Associate Director,lsabia@sjnd.org,(510) 523-1526
+Northern California,Alameda,Saint Joseph Notre Dame High School,Maryanne,,Stehr,Learning Services Counselor,mstehr@sjnd.org,(510) 523-1526
+Northern California,Alameda,Saint Joseph Notre Dame High School,Allison,,Yee,College Counselor and Program Coordinator,ayee@sjnd.org,(510) 523-1526
+Florida,Coconut Grove,Ransom Everglades School,Mr. Lew,,Stival,Director of College Counseling,lstival@ransomeverglades.org,(305) 460-8926
+Florida,Coconut Grove,Ransom Everglades School,Mr. Roger,,Caron,"Coordinator of Student-Athlete College Recruitment, History & Social Sciences Teacher, Coach",rcaron@ransomeverglades.org,(305) 460-8235
+Florida,Coconut Grove,Ransom Everglades School,Mr. Daniel,,Creasy,Senior Associate Director of College Counseling,dcreasy@ransomeverglades.org,(305) 460-8829
+Florida,Coconut Grove,Ransom Everglades School,Ms. Aleny,,Garcia,Associate Director of College Counseling,agarcia@ransomeverglades.org,(305) 460-8933
+Florida,Coconut Grove,Ransom Everglades School,Mr. Terry,,Giffen,College Counseling,tgiffen@ransomeverglades.org,
+Florida,Coconut Grove,Ransom Everglades School,Mrs. Claudia,,Jolivert,Senior Associate Director of College Counseling,cjolivert@ransomeverglades.org,(305) 460-8903
+Florida,Coconut Grove,Ransom Everglades School,Mrs. Lyn,,Bernasco,Administrative Assistant for College Counseling,lbernasco@ransomeverglades.org,(305) 460-8844
+Florida,Coconut Grove,Ransom Everglades School,Mrs. Umehani,,Hassan,Administrative Assistant for College Counseling,uhassan@ransomeverglades.org,(305) 460-4319
+Southern California,Encino,Westmark School,Katharine,,Gibson,College Counselor,kgibson@westmarkschool.org,"(818) 986-5045, Ext. 336"
+Northern California,Danville,The Athenian School,Mark,,Van Warmerdam,Co-Director of College Counseling,mvanwarmerdam@athenian.org,(925) 362-7253
+Washington,Kirkland,Eastside Preparatory School,Bart,,Gummere,Head of College Counseling,bgummere@eastsideprep.org,
+Northern California,Danville,The Athenian School,Tillie,,Gottlieb,Co-Director of College Counseling,tgottlieb@athenian.org,(925) 362-7290
+Northern California,Danville,The Athenian School,Rebecca,,Munda,Co-Director of College Counseling,rmunda@athenian.org,(925) 362-7241
+Washington,Kirkland,Eastside Preparatory School,Elizabeth,,andersen,College Counselor,eandersen@eastsideprep.org,
+Washington,Kirkland,Eastside Preparatory School,Mike,,Anderson,College Counselor,manderson@eastsideprep.org,
+Washington,Kirkland,Eastside Preparatory School,Stephen,,Keedy,College Counselor,skeedy@eastsideprep.org,
+Washington,Kirkland,Eastside Preparatory School,Allison,,Luhrs,College Counselor,aluhrs@eastsideprep.org,
+Washington,Kirkland,Eastside Preparatory School,Elena,,Olsen,College Counselor,eolsen@eastsideprep.org,
+Washington,Kirkland,Eastside Preparatory School,Kelly,,Violette,College Counselor,kviolette@eastsideprep.org,
+Washington,Kirkland,Eastside Preparatory School,Adam,,Waltzer,College Counselor,awaltzer@eastsideprep.org,
+Washington,Kirkland,Eastside Preparatory School,Katie,,Yost,Administrative Assistant to College Counseling,kyost@eastsideprep.org,
+Florida,Boca Raton,Pine Crest School,Marcia,,Hunt,Director of College and Academic Advising,marcia.hunt@pinecrest.edu,
+Florida,Boca Raton,Pine Crest School,Katie,,Byrnes,Assistant Director of College and Academic Advising/TenthGrade Academic Dean,katie.byrnes@pinecrest.edu,
+Florida,Boca Raton,Pine Crest School,Jordan,,Shapiro,Assistant Director of College and Academic Advising,jordan.shapiro@pinecrest.edu,
+Florida,Boca Raton,Pine Crest School,Kalah,,Fanning,Ninth Grade Academic Dean,kalah.fanning@pinecrest.edu,
+Florida,Boca Raton,Pine Crest School,Jeff,,Shea,Associate Director of College and Academic Advising,jeff.shea@pinecrest.edu,
+Florida,Boca Raton,Pine Crest School,Lisa,,Goldberg,EleventhGrade Academic Dean,lisa.goldberg@pinecrest.edu,
+Florida,Boca Raton,Pine Crest School,Kathleen,,Sullivan,Senior Associate Director of College and Academic Advising,kathleen.sullivan@pinecrest.edu,
+Florida,West Palm Beach,Oxbridge Academy,Zoe,,Losada,Director,zlosada@oapb.org,
+Florida,West Palm Beach,Oxbridge Academy,Shannon,,Duff,Associate Director,sduff@oapb.org,
+Florida,West Palm Beach,Oxbridge Academy,Kerry,,Avakian,Assistant Director,kavakian@oapb.org,
+Florida,West Palm Beach,Oxbridge Academy,Amanda,,Del Ponte,Assistant Director,adelponte@oapb.org,
+Florida,West Palm Beach,Oxbridge Academy,Monica,,Hammett,Coordinator,mhammett@oapb.org,
+Northern California,Concord,De La Salle High School,Esther,,Lopez,Co-Director College Counseling,lopeze@dlshs.org,(925) 288-8103
+Northern California,Concord,De La Salle High School,Lisa,,Sciacca,Co-Director College Counseling,sciaccal@dlshs.org,(925) 288-8128
+Northern California,Concord,Carondelet High School,Allison,,Bly,Associate Director for College and Career Counseling,ably@carondeleths.org,
+Northern California,Concord,Carondelet High School,Ellen,,Bull,Associate Director for College and Career Counseling,ebull@carondeleths.org,
+Northern California,Concord,Carondelet High School,Ginger,,Jessop,Associate Director for College and Career Counseling,gjessop@carondeleths.org,
+Northern California,Concord,Carondelet High School,Sarah,,Kadesh,Associate Director for College and Career Counseling,skadesh@carondeleths.org,
+Northern California,Concord,Carondelet High School,Michelle,San,Miguel,"College & Career Assistant, Academic Learning Support",msanmiguel@carondeleths.org,
+Florida,Boca Raton,Saint Andrew's School,Dr. Robert,,Bouressa,Director of College Guidance,robert.bouressa@saintandrews.net,(561) 210-2410
+Florida,Boca Raton,Saint Andrew's School,Mrs. Audrey,,Hanowitz,Associate Director of College Guidance office,audrey.hanowitz@saintandrews.net,(561) 210-2414
+Florida,Boca Raton,Saint Andrew's School,Mrs. Tammy,,Friedman,Associate Director of College Guidance,tammy.friedman@saintandrews.net,(561) 210-2408
+Northern California,Dublin,Valley Christian Schools,Geigy,,Boek,Academic Counselor,gboek@valleychristianschools.org,
+Northern California,Dublin,Valley Christian Schools,Carolyn,,Mariot,College Counselor,cmariot@valleychristianschools.org,
+Florida,Coconut Creek,North Broward Preparatory School,Brian,,Johnson,Director of College Advising,brian.johnson@nbps.org,"(954) 247-0011, Ext. 218"
+Florida,Coconut Creek,North Broward Preparatory School,Jamie,,Adelson,Associate Director,jamie.adelson@nbps.org,"(954) 247-0011, Ext. 230"
+Florida,Coconut Creek,North Broward Preparatory School,Bernadette,,Baxley,Associate Director,bernadette.baxley@nbps.org,"(954) 247-0011, Ext. 205"
+Florida,Coconut Creek,North Broward Preparatory School,Eve,,Eriss,Administrative Assistant,eve.eriss@nbps.org,"(954) 247-0011, Ext. 308"
+Florida,Boca Raton,Saint Andrew's School,Mrs. Leann,,Doyle,Associate Director of College Guidance Office,leann.doyle@saintandrews.net,(561) 210-2415
+Florida,Boca Raton,Saint Andrew's School,Mrs. Jamie,,Adelson,Associate Director of College Guidance,jamie.adelson@saintandrews.net,(561) 210-2412
+Florida,Boca Raton,Saint Andrew's School,Mrs. Melissa,,Halsey,Administrative Assistant to College Guidance,melissa.halsey@saintandrews.net,(561) 210-2410
+Florida,Coconut Creek,North Broward Preparatory School,Ana,,Farrand,College Advisor,ana.farrand@nbps.org,"(954) 247-0011, Ext. 308"
+Florida,Coconut Creek,North Broward Preparatory School,Karen,,Siegel,Associate Director,karen.siegel@nbps.org,"(954) 247-0011, Ext. 212"
+Southern California,Chatsworth,Sierra Canyon School,Steve,,Burnett,Director of Student Advancement,sburnett@sierracanyonschool.org,"(818) 882-8121, Ext. 303"
+Southern California,Chatsworth,Sierra Canyon School,Meredith,,Britt,Director of College Counseling,mbritt@sierracanyonschool.org,"(818) 882-8121, Ext. 308"
+Southern California,Chatsworth,Sierra Canyon School,Stephanie,,Rubin,Upper School Director,srubin@sierracanyonschool.org,"(818) 882-8121, Ext. 307"
+Southern California,Chatsworth,Sierra Canyon School,Amy,,Gvozden,Assistant Director of College Counseling; Upper School Administrative Assistant,agvozden@sierracanyonschool.org,"(818) 882-8121, Ext. 316 "
+Southern California,Chatsworth,Sierra Canyon School,Barbra,,Marzan,College Counseling Administrative Assistant; Upper School Administrative Assistant,bmarzan@sierracanyonschool.org,"(818) 882-8121, Ext. 319"
+Southern California,Carlsbad,Pacific Ridge School,Rachel,E.,Petrella,Dean of College Guidance,rpetrella@pacificridge.org,(760) 448-9842
+Southern California,Carlsbad,Pacific Ridge School,Emily,T.,Moscol,Directors of College Guidance,emoscol@pacificridge.org,(760) 448-9898
+Southern California,Calabasas,Viewpoint School,Rhody,,Davis,Director of College Counseling,rhody.davis@viewpoint.org,
+Southern California,Calabasas,Viewpoint School,Manny,,Mohareb,Associate Director of College Counseling,manny.mohareb@viewpoint.org,
+Southern California,Calabasas,Viewpoint School,Cristian,,Monroy,Associate Director of College Counseling,cristian.monroy@viewpoint.org,
+Southern California,Calabasas,Viewpoint School,Jamon,,Pulliam,Associate Director of College Counseling,jamon.pulliam@viewpoint.org,
+Southern California,Calabasas,Viewpoint School,Kristen,,Saleen,Registrar and College Counseling Assistant,kristen.saleen@viewpoint.org,
+Florida,Miami,Miami Country Day School,Marnie,,Allen,Co-Director of College Counseling,allenm@miamicountryday.org,(305) 779-7235
+Florida,Miami,Miami Country Day School,J.,Robert,Spatig,Co-Director of College Counseling,spatigr@miamicountryday.org,(305) 779-7356
+Florida,Miami,Miami Country Day School,Marisol,,Sardina,Associate Director of College Counseling,sardinam@miamicountryday.org,(305) 779-7277
+Florida,Miami,Miami Country Day School,Walter,,Pineda,Associate Director of College Counseling,pinedaw@miamicountryday.org,(305) 779-7233
+Florida,Miami,Miami Country Day School,Cynthia,,Rosenberg,College Counseling Administrative Assistant,rosenbergc@miamicountryday.org,(305) 779-7232
+Washington,Bainbridge Island,Hyla School,Tara,,Powers-Hausmann,College Counselor,taraph@hylaschool.org,
+Northern California,Berkeley,Bayhill High School,Rebecca,,Field,College Advising,field@bayhillhs.org,
+Northern California,Berkeley,Maybeck High School,Giulietta,,Aquino,College Counseling,giuliettaa@maybeckhs.org,
+Washington,Bellevue,"Forest Ridge, The Sacred Heart School of Seattle",Nikki,,Danos,Director of College Counseling,ndanos@forestridge.org,
+Southern California,Burbank,International School of Los Angeles,Barbara,,Kuhl,College Counselor,barbara.kuhl@lilaschool.com,
+Southern California,Burbank,International School of Los Angeles,Sylvia,,Bullock,Associate College Counselor,sylvia.bullock@lilaschool.com,
+Northern California,Atherton,Menlo School,Lisa,,Giarratano,Director of College Counseling,lisa.giarratano@menloschool.org,"(650) 330-2000, Ext. 2234"
+Northern California,Atherton,Menlo School,Natalie,,Ford,Associate Director of College Counseling,natalie.ford@menloschool.org,"(650) 330-2000, Ext. 2593"
+Northern California,Atherton,Menlo School,Kristen,,Jurgens,Associate Director of College Counseling,kjurgens@menloschool.org,"(650) 330-2000, Ext. 2234"
+Northern California,Atherton,Menlo School,David,,Melena,Associate Director of College Counseling,dmelena@menloschool.org,"(650) 330-2000, Ext. 2591"
+Florida,Miami,Carrollton School of the Sacred Heart,Carol,,Recicar,Director of College Counseling,crecicar@carrolton.org,
+Florida,Miami,Carrollton School of the Sacred Heart,Michele,,Patterson,College and Academic Counselor,mpatterson@carrolton.org,
+Florida,Miami,Carrollton School of the Sacred Heart,Hilda,,Novas,Upper School office of Academic Resources Administrative Assistant,hnovas@carrolton.org,
+Northern California,Atherton,Menlo School,Elena,,Wong,Associate Director of College Counseling,elena.wong@menloschool.org,"(650) 330-2000, Ext. 2595"
+Northern California,Atherton,Menlo School,Bridget,,Allard,Assistant to College Counselors,bridget.allard@menloschool.org,"(650) 330-2000, Ext. 2590"
+Texas,Austin,Hyde Park Schools,Mrs. Tricia,,Dunton,College Counselor,,"(512) 465-8333, Ext. 2132"
+Texas,Austin,Austin Waldorf School,Ryan,,Phillips,Director of College Counseling,rphillips@austinwaldorf.org,
+Texas,Austin,Regents School of Austin,Sarah,,Harris,Co-Director of College Counseling,sharris@regentsaustin.org,
+Texas,Austin,Regents School of Austin,Eric,,Hartsfield,Co-Director of College Counseling,ehartsfield@regentsaustin.org,
+Texas,Austin,Regents School of Austin,Mrs,Ronda,Reece,College office Assistant,rreece@regentsaustin.org,
+Texas,Austin,St Michael's Catholic Academy,Jonathan,,Goode,Associate Director of College & Academic Counseling,jgoode@smca.com,
+Texas,Austin,St Michael's Catholic Academy,Sasha,,Spear,Associate Director of College & Academic Counseling,rharrison@smca.com,
+Texas,Austin,St Michael's Catholic Academy,Shannon,,Hudson,Director of College & Academic Services,shudson@smca.com,
+Texas,Austin,St. Stephen's Episcopal School,Maj,,Dergham,Director of College Counseling,mdergham@sstx.org,
+Texas,Austin,St. Stephen's Episcopal School,Karla,,Enloe,College Counseling Office Manager,kenloe@sstx.org,
+Texas,Austin,St. Stephen's Episcopal School,Claire,,Fenton,Director of College Counseling,cfenton@sstx.org,
+Texas,Austin,St. Stephen's Episcopal School,Bea,,Hodavdekar,Director of College Counseling,bhodavdekar@sstx.org,
+Texas,Austin,St. Stephen's Episcopal School,Lynn,,Schweber,Director of College Counseling,lschweber@sstx.org,
+Northern California,Atherton,Sacred Heart Schools Atherton,Lauri,,Badar,Director of College Counseling,lbadar@shschools.org,
+Northern California,Atherton,Sacred Heart Schools Atherton,Marilyn,,Coffey,Administrative Assistant - College Counseling,mcoffey@shschools.og,
+Northern California,Atherton,Sacred Heart Schools Atherton,Joel,,Dobben,Associate Director of College Counseling,jdobben@shschools.org,
+Northern California,Atherton,Sacred Heart Schools Atherton,Alinne,,Ortiz,Scholarship & Testing Coordinator - Shp,aortiz@shschools.org,
+Texas,Austin,St Andrew's Episcopal School,Chadwick,,Fulton,Associate Director of College Counseling,cfulton@sasaustin.org,(512) 299-9712
+Texas,Austin,St Andrew's Episcopal School,Elizabeth,,Guice,Director of College Counseling,eguice@sasaustin.org,(512) 299-9736
+Southern California,Burbank,Providence High School,Shanica,,Dale,Dean of Equity & Wellbeing,shanica.dale@providencehigh.org,
+Southern California,Burbank,Providence High School,Clara,,Bird,"Director of College Counseling, 12th Grade Academic Counselor",clara.bird@providencehigh.org,
+Southern California,Burbank,Providence High School,Giavonna,,Futia,Counselor,giavonna.futia@providencehigh.org,
+Washington,Bellevue,Hillside Student Community School,Rebecca,,Nick,Academic Counselor,rebecca@hillsidesc.org,
+Florida,Miami,Palmer Trinity School,Danny,,Reynolds,Director of College Counseling,dreynolds@palmertrinity.org,
+Florida,Miami,Palmer Trinity School,Catie,,Paschick,Assistant Director of College Counseling,cpaschick@palmertrinity.org,
+Northern California,Atherton,Sacred Heart Schools Atherton,Silke,,Sen,Associate Director of College Counseling - Shp,ssen@shschools.org,
+Southern California,Burbank,Providence High School,Caren,,Gitlin,Learning Specialist,caren.gitlin@providencehigh.org,
+Southern California,Burbank,Providence High School,Claire,,Irvine,Academic Counselor,claire.irvine@providencehigh.org,
+Southern California,Burbank,Providence High School,Rita,,Saade,Counselor,rita.saade@providencehigh.org,
+Florida,Miami,Palmer Trinity School,Ashley,,Armato,Senior Associate Director of College Counseling,aarmato@palmertrinity.org,
+Florida,Miami,Palmer Trinity School,Matt,,Levin,College Counselor/Athletic Liaison,mlevin@palmertrinity.org,
+Florida,Miami,Palmer Trinity School,Fabiola,,Mathelier,Executive Assistant to the Director,fmathelier@palmertrinity.org,
+Texas,Austin,Headwaters School,Lisa,Dubuque,Wood,Director of College Counseling,l.dubuque@headwaters.org,

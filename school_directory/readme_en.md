@@ -1,8 +1,8 @@
 [![author](https://img.shields.io/badge/author-Marcius%20D.%20Moraes-green)](https://www.linkedin.com/in/marciusdm) [![](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/release/python-365/) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/marciusdm/portfolio/issues)
 
-<a href="readmeen.md"> <img src="https://flagsapi.com/BR/flat/32.png" alt="portugues version of this file" /></a>
+<a href="readme.md"> <img src="https://flagsapi.com/BR/flat/32.png" alt="portugues version of this file" /></a>
 
-# # A web-scraping application to collect data from the website [https://www.schooldirectory.org/](https://www.schooldirectory.org/)
+# A web-scraping application to collect data from the website [https://www.schooldirectory.org/](https://www.schooldirectory.org/)
 Based on a request from the Upwork website to scrape school counselor data from the [School Directory](https://www.schooldirectory.org/) website , a project was created using the [Scrapy](https://scrapy.org/) library (Click [here](https://medium.com/@marciusdellano/introduction-to-web-scraping-using-the-scrapy-tool-e0138dd95080) to read an introductory article about Scrapy). Scrapy works with the concept of 'spiders' that allow it to analyze the source code of each page and extract the desired information using CSS or XPath selectors. It is also possible to extract links and navigate through them. First, the website's home page is accessed, where there is a section called "Browse by Cities", as shown in the figure below:
 ![School Directory home page](https://github.com/marciusdm/webscraping/blob/main/assets/school_directory_home.png?raw=true)
 There is a list of states or regions (the state of California was split into two regions: north and south), each containing a link that accesses the list of cities by state, which is shown below:

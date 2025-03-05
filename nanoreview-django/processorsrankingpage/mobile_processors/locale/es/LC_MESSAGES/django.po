@@ -1,0 +1,253 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-04 13:11-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
+"1 : 2;\n"
+
+#: .\ProcessorFilter.py:7
+msgid "Antutu score"
+msgstr "Puntuación Antutu"
+
+#: .\ProcessorFilter.py:8
+msgid "Minimum Score"
+msgstr "Puntuación mínima"
+
+#: .\ProcessorFilter.py:9
+msgid "Maximum score"
+msgstr "Puntuación máxima"
+
+#: .\ProcessorFilter.py:10 .\table.py:14
+#: .\templates\mobile_processors\detail.html:209
+msgid "Category"
+msgstr "Categoría"
+
+#: .\ProcessorFilter.py:11 .\table.py:11
+msgid "Manufacturer"
+msgstr "Fabricante"
+
+#: .\ProcessorFilter.py:12
+msgid "Announced date"
+msgstr "Fecha de anuncio"
+
+#: .\bridge\BooleanHelper.py:13
+msgid "Yes"
+msgstr "Sí"
+
+#: .\bridge\BooleanHelper.py:14
+msgid "No"
+msgstr "No"
+
+#: .\custom_filters.py:18
+msgid "Last 12 months"
+msgstr "´Últimos 12 meses"
+
+#: .\custom_filters.py:19
+msgid "Last 2 years"
+msgstr "Últimos 2 años"
+
+#: .\custom_filters.py:20
+msgid "Last 3 years"
+msgstr "Últimos 3 años"
+
+#: .\custom_filters.py:21
+msgid "Last 4 years"
+msgstr "Últimos 4 años"
+
+#: .\custom_filters.py:22
+msgid "Last 5 years"
+msgstr "Últimos 5 años"
+
+#: .\models.py:10
+msgid "Flagship"
+msgstr "Flagship"
+
+#: .\models.py:11
+msgid "Mid range"
+msgstr "Intermediario"
+
+#: .\models.py:12
+msgid "Low end"
+msgstr "nível básico"
+
+#: .\table.py:12
+msgid "Model"
+msgstr "Modelo"
+
+#: .\table.py:15
+msgid "Short NanoReview Score"
+msgstr "Punc. NanoReview"
+
+#: .\table.py:16
+#, fuzzy
+#| msgid "Antutu score"
+msgid "Antutu Score"
+msgstr "Puntuación Antutu"
+
+#: .\table.py:17
+msgid "Clock"
+msgstr "Clock"
+
+#: .\table.py:18 .\templates\mobile_processors\detail.html:30
+msgid "Cores"
+msgstr "Núcleos"
+
+#: .\table.py:19 .\templates\mobile_processors\detail.html:205
+#| msgid "Announced date"
+msgid "Announced"
+msgstr "Fecha de anuncio"
+
+#: .\templates\mobile_processors\detail.html:8
+msgid "Details of processor"
+msgstr "Detalles del procesador"
+
+#: .\templates\mobile_processors\detail.html:39
+msgid "Scores (Nanoreview, Antutu, Geekbench and 3D-Mark)"
+msgstr "Punctuacion (Nanoreview, Antutu, Geekbench y 3D-Mark)"
+
+#: .\templates\mobile_processors\detail.html:72
+msgid "3D-Mark score"
+msgstr "Puntuación 3D-Mark"
+
+#: .\templates\mobile_processors\detail.html:78
+msgid "3D-Mark graphics test"
+msgstr "Prueba de gráficos 3D-Mark"
+
+#: .\templates\mobile_processors\detail.html:99
+msgid "L2 Cache"
+msgstr "Cache L2"
+
+#: .\templates\mobile_processors\detail.html:105
+msgid "L3 Cache"
+msgstr "Cache L3"
+
+#: .\templates\mobile_processors\detail.html:117
+msgid "TDP (Sustained Power Limit)"
+msgstr "Límite de potencia sostenida"
+
+#: .\templates\mobile_processors\detail.html:125
+msgid "GPU Name"
+msgstr "Nombre de la GPU"
+
+#: .\templates\mobile_processors\detail.html:129
+msgid "GPU Frequency"
+msgstr "Frecuencia de la GPU"
+
+#: .\templates\mobile_processors\detail.html:144
+msgid "Memory type"
+msgstr "Tipo de Memoria"
+
+#: .\templates\mobile_processors\detail.html:148
+msgid "Memory frequency"
+msgstr "Frecuencia de la memoria"
+
+#: .\templates\mobile_processors\detail.html:152
+msgid "Max size"
+msgstr "Tamaño máximo"
+
+#: .\templates\mobile_processors\detail.html:159
+msgid "Max display resolution"
+msgstr "Máxima resolución de la pantalla"
+
+#: .\templates\mobile_processors\detail.html:163
+msgid "Max camera resolution"
+msgstr "Máxima resolución de la cámara"
+
+#: .\templates\mobile_processors\detail.html:167
+msgid "Video Capture"
+msgstr "Captura de video"
+
+#: .\templates\mobile_processors\detail.html:171
+msgid "Video Playback"
+msgstr "Reproducción de video"
+
+#: .\templates\mobile_processors\detail.html:176
+msgid "Connectivity"
+msgstr "Conectividad"
+
+#: .\templates\mobile_processors\detail.html:178
+msgid "4G support"
+msgstr "Soporte 4G"
+
+#: .\templates\mobile_processors\detail.html:182
+msgid "5G support"
+msgstr "Soporte 4G"
+
+#: .\templates\mobile_processors\detail.html:186
+msgid "download max speed"
+msgstr "Velocidad máxima de descarga"
+
+#: .\templates\mobile_processors\detail.html:190
+msgid "Upload max speed"
+msgstr "Velocidad máxima de subida"
+
+#: .\templates\mobile_processors\detail.html:194
+msgid "Wi-fi version"
+msgstr "Versión de Wi-fi"
+
+#: .\templates\mobile_processors\detail.html:198
+msgid "Bluetooth version"
+msgstr "Versión de Bluetooth"
+
+#: .\templates\mobile_processors\detail.html:214
+msgid "Back"
+msgstr "Volver"
+
+#: .\templates\mobile_processors\detail.html:217
+#: .\templates\mobile_processors\index.html:68
+msgid "Source"
+msgstr "Fuente"
+
+#: .\templates\mobile_processors\index.html:10
+msgid "Mobile processors"
+msgstr "Procesadores móviles"
+
+#: .\templates\mobile_processors\index.html:38
+msgid "Mobile processors list obtained from NanoReview web-site"
+msgstr "Lista de procesadores móviles obtenida del sitio web NanoReview"
+
+#: .\templates\mobile_processors\index.html:44
+msgid "Define Filters"
+msgstr "Definir filtros"
+
+#: .\templates\mobile_processors\index.html:52
+msgid "Filter"
+msgstr "Filtrar"
+
+#: .\templates\mobile_processors\index.html:53
+msgid "Clean"
+msgstr "Limpiar"
+
+#: .\templates\mobile_processors\index.html:64
+msgid "There is no processors on the records"
+msgstr "No hay procesadores registrados"
+
+#: .\templates\mobile_processors\index.html:66
+msgid "Load processors list"
+msgstr "Cargar lista de procesadores"
+
+#: .\templates\mobile_processors\index.html:81
+msgid "Wait"
+msgstr "Aguardar"
+
+#: .\templates\mobile_processors\index.html:88
+msgid "Loading Processors List"
+msgstr "Cargando lista de procesadores"
+
+#: .\templates\mobile_processors\index.html:115
+msgid "Processor list imported successfully"
+msgstr "Lista de procesadores importada exitosamente"

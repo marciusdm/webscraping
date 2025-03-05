@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+{% load i18n %}
+{% load custom_filters %}
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% trans "Details of processor" %} {{processor.manufacturer}} {{processor.model}}</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"></script>
+    <style type="text/css">
+        section{
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1 id="processor_name_model" class="text-center">
+        {{processor.manufacturer}} {{processor.model}}
+    </h1>
+    <section id="main_information">
+        <div class="row">
+            <div class="col-sm-4"><strong>GPU</strong></div>
+            <div class="col-sm-8">{{processor.gpu_name}}</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4"><strong>{% trans "Cores" %}</strong></div>
+            <div class="col-sm-8">{{processor.cores}}</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4"><strong>Clock</strong></div>
+            <div class="col-sm-8">{{processor.clock}} Mhz</div>
+        </div>
+    </section>
+    <section id="section_benchmark">
+        <h2 class="bg-light bg-gradient">{% trans "Scores (Nanoreview, Antutu, Geekbench and 3D-Mark)" %}</h2>
+        <div class="row">
+            <div class="col-sm-4"><strong>Nanoreview</strong></div>
+            <div class="col-sm-8">{{processor.nano_review_score}} [{{processor.nano_review_label}}]</div>
+        </div>
+        <div class="row progress mx-0 mb-1" style="height:0.15rem">
+             <div class="progress-bar" id="nanoreview-score" style=" width:{{processor.nano_review_score}}%">
+              </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4"><strong>Antutu</strong></div>
+            <div class="col-sm-8">{{processor.antutu_score}}</div>
+        </div>
+        {% if processor.geek_bench_score_single %}
+        <div class="row">
+            <div class="col-sm-4"><strong>GeekBench (single-core)</strong></div>
+            <div class="col-sm-8">{{processor.geek_bench_score_single}}</div>
+        </div>
+        {% endif %}
+        {% if processor.geek_bench_score_multi %}
+        <div class="row">
+            <div class="col-sm-4"><strong>GeekBench (multi-core)</strong></div>
+            <div class="col-sm-8">{{processor.geek_bench_score_multi}}</div>
+        </div>
+        {% endif %}
+        {% if processor.geek_bench_score_gpu %}
+        <div class="row">
+            <div class="col-sm-4"><strong>GeekBench (GPU)</strong></div>
+            <div class="col-sm-8">{{processor.geek_bench_score_gpu}}</div>
+        </div>
+        {% endif %}
+        {% if processor.score_3d_mark %}
+        <div class="row">
+            <div class="col-sm-4"><strong>{% trans "3D-Mark score" %}</strong></div>
+            <div class="col-sm-8">{{processor.score_3d_mark}}</div>
+        </div>
+        {% endif %}
+        {% if processor.fps_3d_mark %}
+        <div class="row">
+            <div class="col-sm-4"><strong>{% trans "3D-Mark graphics test" %}</strong></div>
+            <div class="col-sm-8">{{processor.fps_3d_mark}} FPS</div>
+        </div>
+        {% endif %}
+    </section>
+    <section id="section_cpu">
+        <h2 class="bg-light bg-gradient">CPU</h2>
+        <div class="row">
+            <div class="col-sm-4"><strong>{% trans Architecture %}</strong></div>
+            <div class="col-sm-8">{{processor.architecture|comma_to_br}}</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4"><strong>{% trans Cores %}</strong></div>
+            <div class="col-sm-8">{{processor.cores}}</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4"><strong>{% trans Frequency %}</strong></div>
+            <div class="col-sm-8">{{processor.clock}} MHz</div>
+        </div>
+        {% if processor.l2_cache %}
+        <div class="row">
+            <div class="col-sm-4"><strong>{% trans "L2 Cache" %} </strong></div>
+            <div class="col-sm-8">{{processor.l2_cache}}</div>
+        </div>
+        {% endif %}
+        {% if processor.l3_cache %}
+        <div class="row">
+            <div class="col-sm-4"><strong>{% trans "L3 Cache" %}</strong></div>
+            <div class="col-sm-8">{{processor.l3_cache}}</div>
+        </div>
+        {% endif %}
+        {% if processor.process_nanometers %}
+        <div class="row">
+            <div class="col-sm-4"><strong>{% trans Process %}</strong></div>
+            <div class="col-sm-8">{{processor.process_nanometers}} {% trans nanometers}</div>
+        </div>
+        {% endif %}
+        {% if processor.tdp_watt %}
+        <div class="row">
+            <div class="col-sm-4"><strong>{% trans "TDP (Sustained Power Limit)" %}</strong></div>
+            <div class="col-sm-8">{{processor.tdp_watt}} W</div>
+        </div>
+        {% endif %}
+    </section>
+    <section id="section_gpu">
+        <h2 class="bg-light bg-gradient"></h2>
+        <div class="row">
+            <div class="col-sm-4"><strong>{% trans "GPU Name" %}</strong></div>
+            <div class="col-sm-8">{{processor.gpu_name}}</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4"><strong>{% trans "GPU Frequency" %}</strong></div>
+            <div class="col-sm-8">{{processor.gpu_frequency}} MHz</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4"><strong>Pipelines</strong></div>
+            <div class="col-sm-8">{{processor.gpu_pipelines}}</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4"><strong>Flops</strong></div>
+            <div class="col-sm-8">{{processor.gpu_flops_gigaflops}} Gigaflops</div>
+        </div>
+    </section>
+    <section id="section_memory">
+        <h2 class="bg-light bg-gradient">{% trans Memory %}</h2>
+        <div class="row">
+            <div class="col-sm-4"><strong>{% trans "Memory type"%}</strong></div>
+            <div class="col-sm-8">{{processor.memory_type}} MHz</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4"><strong>{% trans "Memory frequency" %}</strong></div>
+            <div class="col-sm-8">{{processor.memory_frequency}} Mhz</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4"><strong>{% trans "Max size" %}</strong></div>
+            <div class="col-sm-8">{{processor.memory_max_size}} GB</div>
+        </div>
+    </section>
+    <section id="section_multimedia">
+        <h2 class="bg-light bg-gradient">{% trans Multimedia %}</h2>
+        <div class="row">
+            <div class="col-sm-4"><strong>{% trans "Max display resolution"%}</strong></div>
+            <div class="col-sm-8">{{processor.max_display_resolution}} MHz</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4"><strong>{% trans "Max camera resolution"%}</strong></div>
+            <div class="col-sm-8">{{processor.max_camera_resolution}}</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4"><strong>{% trans "Video Capture" %}</strong></div>
+            <div class="col-sm-8">{{processor.video_capture}} Gigaflops</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4"><strong>{% trans "Video Playback" %}</strong></div>
+            <div class="col-sm-8">{{processor.video_playbacks}} Gigaflops</div>
+        </div>
+    </section>
+    <section id="section_connectivity">
+        <h2 class="bg-light bg-gradient">{% trans "Connectivity" %}</h2>
+        <div class="row">
+            <div class="col-sm-4"><strong>{% trans "4G support" %}</strong></div>
+            <div class="col-sm-8">{{processor.support_4g}}</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4"><strong>{% trans "5G support" %}</strong></div>
+            <div class="col-sm-8">{{processor.support_5g|yesno }}</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4"><strong>{% trans "download max speed" %}</strong></div>
+            <div class="col-sm-8">{{processor.download_max_speed}} Mbps</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4"><strong>{% trans "Upload max speed" %}</strong></div>
+            <div class="col-sm-8">{{processor.upload_max_speed}} Mbps</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4"><strong>{% trans "Wi-fi version" %}</strong></div>
+            <div class="col-sm-8">{{processor.wifi_version}}</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4"><strong>{% trans "Bluetooth version" %}</strong></div>
+            <div class="col-sm-8">{{processor.bluetooth_version}}</div>
+        </div>
+    </section>
+    <section id="section_info">
+        <h2 class="bg-light bg-gradient"></h2>
+        <div class="row">
+            <div class="col-sm-4"><strong>{% trans "Announced" %}</strong></div>
+            <div class="col-sm-8">{{processor.announced |date:"m/Y"}}</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4"><strong>{% trans "Category" %}</strong></div>
+            <div class="col-sm-8">{{processor.get_category_display}}</div>
+        </div>
+    </section>
+    <section id="buttons" class="d-flex justify-content-center my-1">
+        <button  id="btnVoltar" type="button" class="btn btn-primary">{% trans "Back" %}</button>
+    </section>
+    <footer>
+                {% trans "Source" %}: <a href="{{processor.source}}" target="_blank">Nanoreview</a>
+       </footer>
+</div>
+</body>
+    <script language="JavaScript">
+        btnVoltar = document.getElementById("btnVoltar")
+        btnVoltar.onclick = voltar
+
+        function voltar(){
+            location.href="{% url 'mobile_processors:index' %}"
+        }
+    </script>
+</html>

@@ -1,0 +1,10 @@
+<div class="d-flex">
+    {% for widget in widget.subwidgets %}
+    <div class="flex-grow-1">
+        {% include widget.template_name %}
+    </div>
+    {% if forloop.first %}
+    <span class="align-text-bottom">_</span>
+    {% endif %}
+    {% endfor %}
+</div>

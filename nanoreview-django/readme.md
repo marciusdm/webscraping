@@ -20,24 +20,25 @@ Ao clicar em um processador qualquer na coluna "Modelo" é aberta uma página qu
 
 # Como construir e executar este aplicativo
 Para construir e executar este aplicativo, baixe o [código fonte](https://github.com/marciusdm/webscraping/raw/refs/heads/main/nanoreview-django/processorsrankingpage.zip) e siga os passos abaixo:
-* Crie um projeto Python usando um editor IDE como PyCharm ou VsCode ou crie manualmente um ambiente virtual usando o comando abaixo:
- `python -m venv C:\path\to\new\virtual\environment` (Windows)
- ou
+* Crie um projeto Python usando um editor IDE como PyCharm ou VsCode ou crie manualmente um ambiente virtual usando o comando abaixo:<br>
+ `python -m venv C:\path\to\new\virtual\environment` (Windows)<br>
+ ou<br>
  `python  -m  venv  /path/to/new/virtual/environment` (Linux or MacOs)
 * Extraia o conteúdo do arquivo zip para o diretório raiz do projeto ou ambiente virtual
-* Abra um terminal e execute o comando abaixo para instalar todos as bibliotecas requerids p/ o funcionamento do aplicativo:
-  `pip install -r requirements.txt` 
-    <small>Este comando irá instalar todos os pacotes necessários para executar a aplicação:</small>
-	* <small>[scrapy](https://scrapy.org)</small> 
-	* <small>[django](https://www.djangoproject.com)</small>
-	* <small>[django-filter](https://django-filter.readthedocs.io/en/stable/)</small>
-	* [<small>django-tables2](https://django-tables2.readthedocs.io/en/latest/#)</small>
-	* [<small>django-crispy-forms](https://django-crispy-forms.readthedocs.io/en/latest/)</small>
-	* [<small>crispy-bootstrap5](https://pypi.org/project/crispy-bootstrap5/) </small>
-*  navegue até a pasta ‘processorsrankingpage’:
+* Abra um terminal e execute o comando abaixo para instalar todos as bibliotecas requerids p/ o funcionamento do aplicativo:<br>
+  `pip install -r requirements.txt`
+  
+    Este comando irá instalar todos os pacotes necessários para executar a aplicação:
+	* [scrapy](https://scrapy.org) 
+	* [django](https://www.djangoproject.com)
+	* [django-filter](https://django-filter.readthedocs.io/en/stable/)
+	* [django-tables2](https://django-tables2.readthedocs.io/en/latest/#)
+	* [django-crispy-forms](https://django-crispy-forms.readthedocs.io/en/latest/)
+	* [crispy-bootstrap5](https://pypi.org/project/crispy-bootstrap5/) 
+*  navegue até a pasta ‘processorsrankingpage’:<br>
 	`cd processorsrankingpage`   
-* Inicie a aplicação:
+* Inicie a aplicação:<br>
  `python manage.py runserver`
-* Abra um navegador da web no seguinte endereço:
+* Abra um navegador da web no seguinte endereço:<br>
   http://127.0.0.1:8000/mobile_processors/
 * Aproveite!

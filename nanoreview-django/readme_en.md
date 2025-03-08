@@ -4,9 +4,10 @@
 
 # A web-scraping application to collect a list of mobile processors from [NanoReview][https://www.schooldirectory.org/](https://www.schooldirectory.org/) website 
 NanoReview is a website that presents several rankings of mobile and PC processors, as well as laptops, also allowing comparisons between them. On the screenshot below you can see a ranking of mobile processors, which is the focus of this application:
-![NanoReview mobile processor home]https://raw.githubusercontent.com/marciusdm/webscraping/refs/heads/main/assets/nanoreview/NanoReviewHome.png)
+![NanoReview mobile processor home](https://raw.githubusercontent.com/marciusdm/webscraping/refs/heads/main/assets/nanoreview/NanoReviewHome.png)
 It's a cool list but I've missed a form that would allow list only the most recent processors or filter by manufacturer and category. That's why I've created this small application which integrates the [Scrapy](https://scrapy.org) library, running under the hood, with [Django](https://www.djangoproject.com) framework as a front-end.
 By opening this app for the first time, an empty list is shown with  a button labeled "Load processors list", whose click activates a script that scrapes the ranking shown above and stores them on a SQLite database. Then, Django reads it and display data as a paginated table, displaying 10 items per page, as shown on the picture below:
+
 ![app home page](https://raw.githubusercontent.com/marciusdm/webscraping/refs/heads/main/assets/nanoreview/Home.png "App Home-page")
 This table, built with [django-tables2](https://django-tables2.readthedocs.io/en/latest/) compoonent, allows sorting by click on the desired column header.
 By clicking on "Define Filters" a filter form becomes visible. There is 4 types of filters:

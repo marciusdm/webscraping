@@ -5,7 +5,8 @@
 # Uma aplicação de web-scraping para coletar lista de processadores móveis a partir do site [NanoReview](https://nanoreview.net/en/soc-list/rating)
 O site NanoReview é um site que mostra rankings e comparativos de  processadores, tanto de dispositivos móveis quanto de PC's,  além de laptops e smartphones. 
 Aqui por exemplo, temos uma lista de processadores de celular em ordem decrescente de pontuação dada pelo próprio Nanoreview com base nos atributos do processador e em alguns benchmarks tais como Antutu e 3D-Mark:
-![NanoReview mobile processor home]https://raw.githubusercontent.com/marciusdm/webscraping/refs/heads/main/assets/nanoreview/NanoReviewHome.png)
+
+![NanoReview mobile processor home](https://raw.githubusercontent.com/marciusdm/webscraping/refs/heads/main/assets/nanoreview/NanoReviewHome.png)
 É uma lista bastante interessante, mas eu senti falta de um formulário que permitisse listar somente os processadores mais recentes, ou filtrar por marca e categoria (flagship, intermediário e entrada ). Isto é o que me motivou a criar esta aplicação, que integra a biblioteca [Scrapy](https://scrapy.org) com o framework [Django](https://www.djangoproject.com).
 Ao abrir o aplicativo pela primeira vez, é mostrada uma página vazia apenas com um botão rotulado "Carregar lista de processadores", que ao ser clicado ativa um script Scrapy que percorre o site NanoReview e coleta  os dados dos processadores contidos no site e os armazena em uma base de dados SQLite , que é a base de dados padrão utilizada pelo Django. Após esta operação é exibida uma tabela de processadores como esta:
 
@@ -17,8 +18,7 @@ Ao clicar em um processador qualquer na coluna "Modelo" é aberta uma página qu
 ![Página de detalhes]https://raw.githubusercontent.com/marciusdm/webscraping/refs/heads/main/assets/nanoreview/Detalhes.png "Detalhes do processador")
 
 # Como construir e executar este aplicativo
-Para construir e executar este aplicativo, baixe o [código fonte]
-(https://github.com/marciusdm/webscraping/blob/main/nanoreview-django/processorsrankingpage.zip) e siga os passos abaixo:
+Para construir e executar este aplicativo, baixe o [código fonte](https://github.com/marciusdm/webscraping/blob/main/nanoreview-django/processorsrankingpage.zip) e siga os passos abaixo:
 * Crie um projeto Python usando um editor IDE como PyCharm ou VsCode ou crie manualmente um ambiente virtual usando o comando abaixo:
  `python -m venv C:\path\to\new\virtual\environment` (Windows)
  ou

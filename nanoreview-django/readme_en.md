@@ -29,8 +29,9 @@ In order to build and run this app, download the [source code](https://github.co
  `python  -m  venv  /path/to/new/virtual/environment` (Linux or MacOs)
  * Extract the content of the zip file to the root directory of the project or virtual environment
  * On a terminal execute the following command:
-  `pip install -r requirements.txt` 
-   <small>These commands above will install all needed packages for running the application:</small>
+  `pip install -r requirements.txt`
+ 
+   <small>This command will install all needed packages for running the application:</small>
 	* <small>[scrapy](https://scrapy.org)</small> 
 	* <small>[django](https://www.djangoproject.com)</small>
 	* <small>[django-filter](https://django-filter.readthedocs.io/en/stable/)</small>

@@ -18,30 +18,30 @@ By clicking on "Define Filters" a filter form becomes visible. There is 4 types 
 
 ![Filter](https://raw.githubusercontent.com/marciusdm/webscraping/refs/heads/main/assets/nanoreview/Filter.png "Filter")
 
-Clicking on any processor in the "Model" column opens a page that displays additional details about the processor, just like on the original website, but with less information. At the end of the details page, a link is displayed that goes to the processor's details page on the NanoReview website. The details page is shown below:
+Clicking on any processor in the "Model" column opens a page that displays additional details about the processor, just like on the original website, but with less information. At the end of the details page, a link is displayed that goes to the processor's details page on the NanoReview website. The details page is shown below:  
 ![Details page](https://raw.githubusercontent.com/marciusdm/webscraping/refs/heads/main/assets/nanoreview/Detail.png "Processor details")
 
 # How to build and run this app
 In order to build and run this app, download the [source code](https://github.com/marciusdm/webscraping/raw/refs/heads/main/nanoreview-django/processorsrankingpage.zip) and follow the steps below:
-* Create a Python project using an IDE editor like PyCharm or VsCode or  manually create a virtual environment  using the command below:
- `python -m venv C:\path\to\new\virtual\environment` (Windows)
- or
+* Create a Python project using an IDE editor like PyCharm or VsCode or  manually create a virtual environment  using the command below:  
+ `python -m venv C:\path\to\new\virtual\environment` (Windows)  
+ or  
  `python  -m  venv  /path/to/new/virtual/environment` (Linux or MacOs)
  * Extract the content of the zip file to the root directory of the project or virtual environment
- * On a terminal execute the following command:
+ * On a terminal execute the following command:  
   `pip install -r requirements.txt`
  
-   <small>This command will install all needed packages for running the application:</small>
-	* <small>[scrapy](https://scrapy.org)</small> 
-	* <small>[django](https://www.djangoproject.com)</small>
-	* <small>[django-filter](https://django-filter.readthedocs.io/en/stable/)</small>
-	* [<small>django-tables2](https://django-tables2.readthedocs.io/en/latest/#)</small>
-	* [<small>django-crispy-forms](https://django-crispy-forms.readthedocs.io/en/latest/)</small>
-	* [<small>crispy-bootstrap5](https://pypi.org/project/crispy-bootstrap5/) </small>
-*  navigate to  'processorsrankingpage' folder:
+   This command will install all needed packages for running the application:
+	* [scrapy](https://scrapy.org) 
+	* [django](https://www.djangoproject.com)
+	* [django-filter](https://django-filter.readthedocs.io/en/stable/)
+	* [django-tables2](https://django-tables2.readthedocs.io/en/latest/#)
+	* [django-crispy-forms](https://django-crispy-forms.readthedocs.io/en/latest/)
+	* [crispy-bootstrap5](https://pypi.org/project/crispy-bootstrap5/) 
+*  navigate to  'processorsrankingpage' folder:  
 	`cd processorsrankingpage`   
-* Start app:
+* Start app:  
  `python manage.py runserver`
- * Open a web browser on the following addres:
+ * Open a web browser on the following addres:  
   http://127.0.0.1:8000/mobile_processors/
   * Enjoy it!

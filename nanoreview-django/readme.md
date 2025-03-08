@@ -20,7 +20,7 @@ Ao clicar em um processador qualquer na coluna "Modelo" é aberta uma página qu
 
 # Como construir e executar este aplicativo
 Para construir e executar este aplicativo, baixe o [código fonte]
-(https://github.com/marciusdm/webscraping/blob/main/nanoreview-django/processorsrankingpage.zip?raw=true) e siga os passos abaixo:
+(https://github.com/marciusdm/webscraping/raw/refs/heads/main/nanoreview-django/processorsrankingpage.zip) e siga os passos abaixo:
 * Crie um projeto Python usando um editor IDE como PyCharm ou VsCode ou crie manualmente um ambiente virtual usando o comando abaixo:
  `python -m venv C:\path\to\new\virtual\environment` (Windows)
  ou

@@ -1,5 +1,5 @@
 django
-scrpay
+scrapy
 django-tables2 
 django-filter
 django-crispy-forms

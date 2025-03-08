@@ -24,20 +24,16 @@ Para construir e executar este aplicativo, baixe o [código fonte](https://githu
  `python -m venv C:\path\to\new\virtual\environment` (Windows)
  ou
  `python  -m  venv  /path/to/new/virtual/environment` (Linux or MacOs)
- * Extraia o conteúdo do arquivo zip para o diretório raiz do projeto ou ambiente virtual
- * Em um terminal, execute os seguintes comandos:
-   * Windows: 
-  `install_packages.bat` 
-   * Linux ou MacOS:
-    `chmod +x install_packages.sh`
-    `install_packages.sh`
-*  Esses comandos acima instalarão todos os pacotes necessários para executar o aplicação:
-	* [scrapy](https://scrapy.org) 
-	* [django](https://www.djangoproject.com)
-	* [django-filter](https://django-filter.readthedocs.io/en/stable/)
-	* [django-tables2](https://django-tables2.readthedocs.io/en/latest/#)
-	* [django-crispy-forms](https://django-crispy-forms.readthedocs.io/en/latest/)
-	* [crispy-bootstrap5](https://pypi.org/project/crispy-bootstrap5/)
+* Extraia o conteúdo do arquivo zip para o diretório raiz do projeto ou ambiente virtual
+* Abra um terminal e execute o comando abaixo para instalar todos as bibliotecas requerids p/ o funcionamento do aplicativo:
+  `pip install -r requirements.txt` 
+    <small>Este comando irá instalar todos os pacotes necessários para executar a aplicação:</small>
+	* <small>[scrapy](https://scrapy.org)</small> 
+	* <small>[django](https://www.djangoproject.com)</small>
+	* <small>[django-filter](https://django-filter.readthedocs.io/en/stable/)</small>
+	* [<small>django-tables2](https://django-tables2.readthedocs.io/en/latest/#)</small>
+	* [<small>django-crispy-forms](https://django-crispy-forms.readthedocs.io/en/latest/)</small>
+	* [<small>crispy-bootstrap5](https://pypi.org/project/crispy-bootstrap5/) </small>
 *  navegue até a pasta ‘processorsrankingpage’:
 	`cd processorsrankingpage`   
 * Inicie a aplicação:

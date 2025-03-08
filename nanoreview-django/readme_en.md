@@ -28,19 +28,15 @@ In order to build and run this app, download the [source code](https://github.co
  or
  `python  -m  venv  /path/to/new/virtual/environment` (Linux or MacOs)
  * Extract the content of the zip file to the root directory of the project or virtual environment
- * On a terminal execute the following commands:
-   * Windows: 
-  `install_packages.bat` 
-   * Linux or MacOS:
-    `chmod +x install_packages.sh`
-    `install_packages.sh`
-*  These commands above will install all needed packages for running the application:
-	* [scrapy](https://scrapy.org) 
-	* [django](https://www.djangoproject.com)
-	* [django-filter](https://django-filter.readthedocs.io/en/stable/)
-	* [django-tables2](https://django-tables2.readthedocs.io/en/latest/#)
-	* [django-crispy-forms](https://django-crispy-forms.readthedocs.io/en/latest/)
-	* [crispy-bootstrap5](https://pypi.org/project/crispy-bootstrap5/)
+ * On a terminal execute the following command:
+  `pip install -r requirements.txt` 
+   <small>These commands above will install all needed packages for running the application:</small>
+	* <small>[scrapy](https://scrapy.org)</small> 
+	* <small>[django](https://www.djangoproject.com)</small>
+	* <small>[django-filter](https://django-filter.readthedocs.io/en/stable/)</small>
+	* [<small>django-tables2](https://django-tables2.readthedocs.io/en/latest/#)</small>
+	* [<small>django-crispy-forms](https://django-crispy-forms.readthedocs.io/en/latest/)</small>
+	* [<small>crispy-bootstrap5](https://pypi.org/project/crispy-bootstrap5/) </small>
 *  navigate to  'processorsrankingpage' folder:
 	`cd processorsrankingpage`   
 * Start app:

@@ -10,4 +10,8 @@ Source codes from my webscrapimg projects
 * Uma aplicação prática de web-scraping para extrair músicas que chegaram ao primeiro lugar da parada norte-americana Billboard Hot 100 (parte 1 - extraindo os dados): https://bit.ly/3KXoFlE
   *  [Código-fonte](https://github.com/marciusdm/webscraping/tree/main/scrapy_billboard) utilizado no projeto
 * Uma aplicação prática de web-scraping para extrair músicas que chegaram ao primeiro lugar da parada norte-americana Billboard Hot 100 (parte 2 - exibindo os dados): https://bit.ly/4fcywlx
-   *  [Código-fonte](https://github.com/marciusdm/webscraping/tree/main/scrapy_billboard_pt02) utilizado no projeto  
+   *  [Código-fonte](https://github.com/marciusdm/webscraping/tree/main/scrapy_billboard_pt02) utilizado no projeto
+* Extraindo uma lista de conselheiros escolares a partir do site [SchoolDirectory.org](https://www.schooldirectory.org/), um site que mostra uma lista de escolas particulares dos EUA.
+   * [Página da aplicação](https://github.com/marciusdm/webscraping/tree/main/school_directory)
+* Um aplicação que integra o Scrapy com Django p/ extrair lista de processadores móveis a partir do site [NanoReview](https://nanoreview.net/en/soc-list/rating) e incluir filtros de pesquisa
+   * [Página da aplicação](https://github.com/marciusdm/webscraping/tree/main/nanoreview-django)    

@@ -92,7 +92,6 @@ msgid "Short NanoReview Score"
 msgstr "Pont. NanoReview"
 
 #: .\table.py:16
-#, fuzzy
 #| msgid "Antutu score"
 msgid "Antutu Score"
 msgstr "Pontuação Antutu"
@@ -106,7 +105,6 @@ msgid "Cores"
 msgstr "Núcleos"
 
 #: .\table.py:19 .\templates\mobile_processors\detail.html:205
-#, fuzzy
 #| msgid "Announced date"
 msgid "Announced"
 msgstr "Data de anúncio"

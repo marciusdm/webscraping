@@ -54,7 +54,7 @@ msgstr "No"
 
 #: .\custom_filters.py:18
 msgid "Last 12 months"
-msgstr "´Últimos 12 meses"
+msgstr "Últimos 12 meses"
 
 #: .\custom_filters.py:19
 msgid "Last 2 years"
@@ -93,7 +93,6 @@ msgid "Short NanoReview Score"
 msgstr "Punc. NanoReview"
 
 #: .\table.py:16
-#, fuzzy
 #| msgid "Antutu score"
 msgid "Antutu Score"
 msgstr "Puntuación Antutu"

@@ -2,7 +2,7 @@ import django_filters
 from .custom_widgets import MyRangeWidget
 from .models import MobileProcessor
 from .custom_filters import FilterIntervalYears
-from django.utils.translation import gettext as _
+from django.utils.translation import gettext_lazy as _
 class MobileProcessorFilter(django_filters.FilterSet):
     antutu_score = django_filters.RangeFilter(label=_("Antutu score"),
                                               widget=MyRangeWidget(from_attrs={'placeholder': _('Minimum Score')},

@@ -1,6 +1,6 @@
 import django_tables2 as tables
 from .models import  MobileProcessor
-from django.utils.translation import gettext as _
+from django.utils.translation import gettext_lazy as _
 
 from django.utils import dateformat
 class MobileProcessorTable(tables.Table):
@@ -27,3 +27,4 @@ class MobileProcessorTable(tables.Table):
         template_name = 'django_tables2/bootstrap5.html'
         fields = ("manufacturer","model","category","nano_review_score",
                 "antutu_score","clock","cores","announced")
+

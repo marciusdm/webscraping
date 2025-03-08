@@ -2,28 +2,44 @@
 
 <a href="readme_en.md"> <img src="https://flagsapi.com/US/flat/32.png" alt="versão em inglês deste arquivo" /></a>
 
-# Uma aplicação de web-scraping para coletar dados do site https://www.schooldirectory.org/
-Com base em um solicitação do site Upwork para coletar dados de conselheiros escolares a partir do site [School Directory](https://www.schooldirectory.org/),
-foi criado um projeto utilizando a biblioteca [Scrapy](https://scrapy.org) (Clique [aqui](https://medium.com/@marciusdellano/introdu%C3%A7%C3%A3o-ao-web-scraping-utilizando-ferramenta-scrapy-65d7a845d2a2)   para ler um artigo introdutório sobre o Scrapy). O Scrapy trabalha com o conceito de 'aranhas' que permitem analisar o código-fonte de cada página e extrair as informações desejadas usando seletores CSS ou XPath e também é possível extrair links e navegar por eles.
-Primeiramente, é acessada a página inicial do site, em que há uma seção denominada "Browse by Cities" (Navegar por cidades), conforme figura abaixo:
-![página inicial](https://github.com/marciusdm/webscraping/blob/main/assets/school_directory_home.png?raw=true)
- Nela há uma lista de estados ou regiões (o estado da California foi dividido em duas regiões: norte e sul) , cada qual contendo um link que vai para a lista de cidades por estado. Cada um desses links  é acessado pela aranha. A lista de cidades por estado é mostrada abaixo:
- ![cidades por estado](https://github.com/marciusdm/webscraping/blob/main/assets/school_directory_browse_by_cities.png?raw=true)
- 
-A aranha, então coleta e acessa os links referentes a cada cidade, que exibem uma lista de escolas por cidade:
-![Lista de escolas da cidade de Palo Alto](https://github.com/marciusdm/webscraping/blob/main/assets/school_directory_schools_by_city.png?raw=true)
-Nesta etapa são coletados os links de cada escola. Esta lista exibe 10 escolas por página. Caso a cidade em questão possua mais de escolas é exibido um paginador:
-![paginador](https://github.com/marciusdm/webscraping/blob/main/assets/school_directory_next_page.png?raw=true)
-A aranha captura e acessa o link contido no item definido por >>. 
-Após obter os links de todas as escolas, são acessadas as páginas de cada uma delas daí coletamos os dados das seção "College Counseling info,":
-  ![seção 'college counseling info](https://github.com/marciusdm/webscraping/blob/main/assets/school_directory_college_counseling.png?raw=true)
-  Aqui são extraídos, o nome, o e-mail, o cargo e  o telefone e gerado um arquivo CSV com os seguintes campos:
-* state_region
-* city
-* school
-* first_name
-* middle_name
-* last_name,
-* job_title,
-* mail
-* phone
+# Uma aplicação de web-scraping para coletar lista de processadores móveis a partir do site [NanoReview](https://nanoreview.net/en/soc-list/rating)
+O site NanoReview é um site que mostra rankings e comparativos de  processadores, tanto de dispositivos móveis quanto de PC's,  além de laptops e smartphones. 
+Aqui por exemplo, temos uma lista de processadores de celular em ordem decrescente de pontuação dada pelo próprio Nanoreview com base nos atributos do processador e em alguns benchmarks tais como Antutu e 3D-Mark:
+![NanoReview mobile processor home]https://raw.githubusercontent.com/marciusdm/webscraping/refs/heads/main/assets/nanoreview/NanoReviewHome.png)
+É uma lista bastante interessante, mas eu senti falta de um formulário que permitisse listar somente os processadores mais recentes, ou filtrar por marca e categoria (flagship, intermediário e entrada ). Isto é o que me motivou a criar esta aplicação, que integra a biblioteca [Scrapy](https://scrapy.org) com o framework [Django](https://www.djangoproject.com).
+Ao abrir o aplicativo pela primeira vez, é mostrada uma página vazia apenas com um botão rotulado "Carregar lista de processadores", que ao ser clicado ativa um script Scrapy que percorre o site NanoReview e coleta  os dados dos processadores contidos no site e os armazena em uma base de dados SQLite , que é a base de dados padrão utilizada pelo Django. Após esta operação é exibida uma tabela de processadores como esta:
+
+![app home page](https://raw.githubusercontent.com/marciusdm/webscraping/refs/heads/main/assets/nanoreview/PaginaInicial.png "Home-page da aplicação")
+Esta tabela, criada através do componente [django-tables2](https://django-tables2.readthedocs.io/en/latest/) permite ordenar os dados ao clicar no cabeçalho da coluna desejada, além de paginar os dados exibindo 10 itens por página.
+Ao clicar em "Definir Filtros" um formulário se expande permitindo filtrar processadores por pontuação no Antutu, por categoria, por fabricante e por data de lançamento:
+![Filtro](https://raw.githubusercontent.com/marciusdm/webscraping/refs/heads/main/assets/nanoreview/Filtro.png "Filtro")
+Ao clicar em um processador qualquer na coluna "Modelo" é aberta uma página que exibe detalhes adicionais do processador, tal como no site original, porém com menos informações. Ao final da página de detalhes é exibido um link que vai para a página de detalhes do processador no site NanoReview. Segue abaixo a página de detalhes:
+![Página de detalhes]https://raw.githubusercontent.com/marciusdm/webscraping/refs/heads/main/assets/nanoreview/Detalhes.png "Detalhes do processador")
+
+# Como construir e executar este aplicativo
+Para construir e executar este aplicativo, baixe o [código fonte](https://github.com/marciusdm/webscraping/raw/refs/heads/main/nanoreview-django/nanoreviw.zip) e siga os passos abaixo:
+* Crie um projeto Python usando um editor IDE como PyCharm ou VsCode ou crie manualmente um ambiente virtual usando o comando abaixo:
+ `python -m venv C:\path\to\new\virtual\environment` (Windows)
+ ou
+ `python  -m  venv  /path/to/new/virtual/environment` (Linux or MacOs)
+ * Extraia o conteúdo do arquivo zip para o diretório raiz do projeto ou ambiente virtual
+ * Em um terminal, execute os seguintes comandos:
+   * Windows: 
+  `install_packages.bat` 
+   * Linux ou MacOS:
+    `chmod +x install_packages.sh`
+    `install_packages.sh`
+*  Esses comandos acima instalarão todos os pacotes necessários para executar o aplicação:
+	* scrapy 
+	* django
+	* django-filter
+	* django-tables2
+	* django-crispy-forms
+	* crispy-bootstrap5
+*  navegue até a pasta ‘processorsrankingpage’:
+	`cd processorsrankingpage`   
+* Inicie a aplicação:
+ `python manage.py runserver`
+* Abra um navegador da web no seguinte endereço:
+  http://127.0.0.1:8000/mobile_processors/
+* Aproveite!

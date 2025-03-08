@@ -1,26 +1,49 @@
 [![author](https://img.shields.io/badge/author-Marcius%20D.%20Moraes-green)](https://www.linkedin.com/in/marciusdm) [![](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/release/python-365/) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/marciusdm/portfolio/issues)
 
-<a href="readme.md"> <img src="https://flagsapi.com/BR/flat/32.png" alt="portugues version of this file" /></a>
+<a href="readme.md"> <img src="https://flagsapi.com/BR/flat/32.png" alt="portuguese version of this file" /></a>
 
-# A web-scraping application to collect data from the website [https://www.schooldirectory.org/](https://www.schooldirectory.org/)
-Based on a request from the Upwork website to scrape school counselor data from the [School Directory](https://www.schooldirectory.org/) website , a project was created using the [Scrapy](https://scrapy.org/) library (Click [here](https://medium.com/@marciusdellano/introduction-to-web-scraping-using-the-scrapy-tool-e0138dd95080) to read an introductory article about Scrapy). Scrapy works with the concept of 'spiders' that allow it to analyze the source code of each page and extract the desired information using CSS or XPath selectors. It is also possible to extract links and navigate through them. First, the website's home page is accessed, where there is a section called "Browse by Cities", as shown in the figure below:
-![School Directory home page](https://github.com/marciusdm/webscraping/blob/main/assets/school_directory_home.png?raw=true)
-There is a list of states or regions (the state of California was split into two regions: north and south), each containing a link that accesses the list of cities by state, which is shown below:
- ![cities by region](https://github.com/marciusdm/webscraping/blob/main/assets/school_directory_browse_by_cities.png?raw=true)
-   
-The spider then collects and accesses the links for each city, which display a list of schools per city:
-![Schools from Palo Alto, CA](https://github.com/marciusdm/webscraping/blob/main/assets/school_directory_schools_by_city.png?raw=true)
-In this step, the links for each school are collected. This list displays 10 schools per page. If the city in question has more than 10 schools, a pager is displayed:
-![pager](https://github.com/marciusdm/webscraping/blob/main/assets/school_directory_next_page.png?raw=true)
-The spider captures and accesses the link contained in the item defined by >>. After obtaining the links for all the schools, the pages for each of them are accessed, and then we collect the data from the "College Counseling info" section:
-  ![ 'college counseling info' section](https://github.com/marciusdm/webscraping/blob/main/assets/school_directory_college_counseling.png?raw=true)
-Here, the name, email, position and phone number are extracted and a CSV file is generated with the following fields:
--   state_region
--   city
--   school
--   first_name
--   middle_name
--   last_name,
--   job_title,
--   mail
--   phone
+# A web-scraping application to collect a list of mobile processors from [NanoReview][https://www.schooldirectory.org/](https://www.schooldirectory.org/) website 
+NanoReview is a website that presents several rankings of mobile and PC processors, as well as laptops, also allowing comparisons between them. On the screenshot below you can see a ranking of mobile processors, which is the focus of this application:
+![NanoReview mobile processor home]https://raw.githubusercontent.com/marciusdm/webscraping/refs/heads/main/assets/nanoreview/NanoReviewHome.png)
+It's a cool list but I've missed a form that would allow list only the most recent processors or filter by manufacturer and category. That's why I've created this small application which integrates the [Scrapy](https://scrapy.org) library, running under the hood, with [Django](https://www.djangoproject.com) framework as a front-end.
+By opening this app for the first time, an empty list is shown with  a button labeled "Load processors list", whose click activates a script that scrapes the ranking shown above and stores them on a SQLite database. Then, Django reads it and display data as a paginated table, displaying 10 items per page, as shown on the picture below:
+![app home page](https://raw.githubusercontent.com/marciusdm/webscraping/refs/heads/main/assets/nanoreview/Home.png "App Home-page")
+This table, built with [django-tables2](https://django-tables2.readthedocs.io/en/latest/) compoonent, allows sorting by click on the desired column header.
+By clicking on "Define Filters" a filter form becomes visible. There is 4 types of filters:
+* Antutu score range;
+* Category (flagship,  midrange and Low-end);
+* Manufacturer;
+* By Announced date.
+
+![Filter](https://raw.githubusercontent.com/marciusdm/webscraping/refs/heads/main/assets/nanoreview/Filter.png "Filter")
+
+Clicking on any processor in the "Model" column opens a page that displays additional details about the processor, just like on the original website, but with less information. At the end of the details page, a link is displayed that goes to the processor's details page on the NanoReview website. The details page is shown below:
+![Details page](https://raw.githubusercontent.com/marciusdm/webscraping/refs/heads/main/assets/nanoreview/Detail.png "Processor details")
+
+# How to build and run this app
+In order to build and run this app, download the [source code](https://github.com/marciusdm/webscraping/raw/refs/heads/main/nanoreview-django/nanoreviw.zip) and follow the steps below:
+* Create a Python project using an IDE editor like PyCharm or VsCode or  manually create a virtual environment  using the command below:
+ `python -m venv C:\path\to\new\virtual\environment` (Windows)
+ or
+ `python  -m  venv  /path/to/new/virtual/environment` (Linux or MacOs)
+ * Extract the content of the zip file to the root directory of the project or virtual environment
+ * On a terminal execute the following commands:
+   * Windows: 
+  `install_packages.bat` 
+   * Linux or MacOS:
+    `chmod +x install_packages.sh`
+    `install_packages.sh`
+*  These commands above will install all needed packages for running the application:
+	* scrapy 
+	* django
+	* django-filter
+	* django-tables2
+	* django-crispy-forms
+	* crispy-bootstrap5
+*  navigate to  'processorsrankingpage' folder:
+	`cd processorsrankingpage`   
+* Start app:
+ `python manage.py runserver`
+ * Open a web browser on the following addres:
+  http://127.0.0.1:8000/mobile_processors/
+  * Enjoy it!

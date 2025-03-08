@@ -1,7 +1,7 @@
 from datetime import timedelta, datetime
 from django.utils.timezone import now
 from django_filters.filters import DateRangeFilter
-from django.utils.translation import gettext as _
+from django.utils.translation import gettext_lazy as _
 
 
 

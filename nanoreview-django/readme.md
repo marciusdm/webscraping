@@ -30,12 +30,12 @@ Para construir e executar este aplicativo, baixe o [código fonte](https://githu
     `chmod +x install_packages.sh`
     `install_packages.sh`
 *  Esses comandos acima instalarão todos os pacotes necessários para executar o aplicação:
-	* scrapy 
-	* django
-	* django-filter
-	* django-tables2
-	* django-crispy-forms
-	* crispy-bootstrap5
+	* [scrapy](https://scrapy.org) 
+	* [django](https://www.djangoproject.com)
+	* [django-filter](https://django-filter.readthedocs.io/en/stable/)
+	* [django-tables2](https://django-tables2.readthedocs.io/en/latest/#)
+	* [django-crispy-forms](https://django-crispy-forms.readthedocs.io/en/latest/)
+	* [crispy-bootstrap5](https://pypi.org/project/crispy-bootstrap5/)
 *  navegue até a pasta ‘processorsrankingpage’:
 	`cd processorsrankingpage`   
 * Inicie a aplicação:

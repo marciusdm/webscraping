@@ -2,7 +2,7 @@
 
 <a href="readme.md"> <img src="https://flagsapi.com/BR/flat/32.png" alt="portuguese version of this file" /></a>
 
-# A web-scraping application to collect a list of mobile processors from [NanoReview][https://www.schooldirectory.org/](https://www.schooldirectory.org/) website 
+# A web-scraping application to collect a list of mobile processors from [NanoReview](https://nanoreview.net/en/soc-list/rating) website 
 NanoReview is a website that presents several rankings of mobile and PC processors, as well as laptops, also allowing comparisons between them. On the screenshot below you can see a ranking of mobile processors, which is the focus of this application:
 ![NanoReview mobile processor home](https://raw.githubusercontent.com/marciusdm/webscraping/refs/heads/main/assets/nanoreview/NanoReviewHome.png)
 It's a cool list but I've missed a form that would allow list only the most recent processors or filter by manufacturer and category. That's why I've created this small application which integrates the [Scrapy](https://scrapy.org) library, running under the hood, with [Django](https://www.djangoproject.com) framework as a front-end.

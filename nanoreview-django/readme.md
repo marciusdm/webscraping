@@ -15,7 +15,8 @@ Esta tabela, criada através do componente [django-tables2](https://django-table
 Ao clicar em "Definir Filtros" um formulário se expande permitindo filtrar processadores por pontuação no Antutu, por categoria, por fabricante e por data de lançamento:
 ![Filtro](https://raw.githubusercontent.com/marciusdm/webscraping/refs/heads/main/assets/nanoreview/Filtro.png "Filtro")
 Ao clicar em um processador qualquer na coluna "Modelo" é aberta uma página que exibe detalhes adicionais do processador, tal como no site original, porém com menos informações. Ao final da página de detalhes é exibido um link que vai para a página de detalhes do processador no site NanoReview. Segue abaixo a página de detalhes:
-![Página de detalhes]https://raw.githubusercontent.com/marciusdm/webscraping/refs/heads/main/assets/nanoreview/Detalhes.png "Detalhes do processador")
+
+![Página de detalhes](https://raw.githubusercontent.com/marciusdm/webscraping/refs/heads/main/assets/nanoreview/Detalhes.png "Detalhes do processador")
 
 # Como construir e executar este aplicativo
 Para construir e executar este aplicativo, baixe o [código fonte](https://github.com/marciusdm/webscraping/blob/main/nanoreview-django/processorsrankingpage.zip) e siga os passos abaixo:

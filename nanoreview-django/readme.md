@@ -17,7 +17,8 @@ Ao clicar em um processador qualquer na coluna "Modelo" é aberta uma página qu
 ![Página de detalhes]https://raw.githubusercontent.com/marciusdm/webscraping/refs/heads/main/assets/nanoreview/Detalhes.png "Detalhes do processador")
 
 # Como construir e executar este aplicativo
-Para construir e executar este aplicativo, baixe o [código fonte](https://github.com/marciusdm/webscraping/raw/refs/heads/main/nanoreview-django/nanoreviw.zip) e siga os passos abaixo:
+Para construir e executar este aplicativo, baixe o [código fonte]
+(https://github.com/marciusdm/webscraping/blob/main/nanoreview-django/processorsrankingpage.zip) e siga os passos abaixo:
 * Crie um projeto Python usando um editor IDE como PyCharm ou VsCode ou crie manualmente um ambiente virtual usando o comando abaixo:
  `python -m venv C:\path\to\new\virtual\environment` (Windows)
  ou

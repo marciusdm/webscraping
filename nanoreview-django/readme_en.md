@@ -21,7 +21,7 @@ Clicking on any processor in the "Model" column opens a page that displays addit
 ![Details page](https://raw.githubusercontent.com/marciusdm/webscraping/refs/heads/main/assets/nanoreview/Detail.png "Processor details")
 
 # How to build and run this app
-In order to build and run this app, download the [source code](https://github.com/marciusdm/webscraping/raw/refs/heads/main/nanoreview-django/nanoreviw.zip) and follow the steps below:
+In order to build and run this app, download the [source code](https://github.com/marciusdm/webscraping/blob/main/nanoreview-django/processorsrankingpage.zip) and follow the steps below:
 * Create a Python project using an IDE editor like PyCharm or VsCode or  manually create a virtual environment  using the command below:
  `python -m venv C:\path\to\new\virtual\environment` (Windows)
  or

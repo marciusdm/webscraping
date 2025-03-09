@@ -24,3 +24,17 @@ Here, the name, email, position and phone number are extracted and a CSV file is
 -   job_title,
 -   mail
 -   phone
+
+# How to run this application 
+* Download the [source code](https://github.com/marciusdm/webscraping/raw/refs/heads/main/school_directory/counselinginfo.zip) 
+* Create an virtual environment with an IDE python, such as PyCharm ou VsCode; or even manually, by uing this command:   
+  `python -m venv <path_to_venv>`  
+ and extract the contentes of the downloaded file to the root directory of the virtual environment 
+* Install the Scrapy library through the command:  
+ `pip install scrapy`
+* navigate to the *counselinginfo* directory:
+   `cd counselinginfo`
+* run the following command in order to extract the school counselors list:
+  `scrapy crawl academics -o counselors.csv:csv `
+
+This list will be located in a file called 'counselors.csv' in the same directory where the command was run.

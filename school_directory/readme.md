@@ -29,3 +29,17 @@ Após obter os links de todas as escolas, são acessadas as páginas de cada uma
 * job_title,
 * mail
 * phone
+
+# Como executar a aplicação 
+* Faça o download do [código fonte](https://github.com/marciusdm/webscraping/raw/refs/heads/main/school_directory/counselinginfo.zip) 
+* Crie um ambiente virtual usando IDE python, tal como PyCharm ou VsCode; ou mesmo manualmente, usando o comando:   
+  `python -m venv <caminho_para_ambiente_virtual>`  
+e extraia o conteúdo do arquivo baixado para o diretório raiz do ambiente virtual
+* Instale a bibliobteca Scrapy através do comando:  
+ `pip install scrapy`
+* navegue até o diretório counselinginfo:
+   `cd counselinginfo`
+* execute o comando abaixo para extrair a lista de conselheiros escolares:
+  `scrapy crawl academics -o counselors.csv:csv `
+
+A lista de conselheiros estará um um arquivo chamado `counselors.csv` na mesma pasta onde o comando acima foi executado 

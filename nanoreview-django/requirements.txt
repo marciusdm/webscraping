@@ -1,6 +1,0 @@
-django
-scrapy
-django-tables2 
-django-filter
-django-crispy-forms
-crispy-bootstrap5

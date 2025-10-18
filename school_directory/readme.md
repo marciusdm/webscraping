@@ -37,9 +37,9 @@ Após obter os links de todas as escolas, são acessadas as páginas de cada uma
 e extraia o conteúdo do arquivo baixado para o diretório raiz do ambiente virtual
 * Instale a bibliobteca Scrapy através do comando:  
  `pip install scrapy`
-* navegue até o diretório counselinginfo:
+* navegue até o diretório counselinginfo:  
    `cd counselinginfo`
-* execute o comando abaixo para extrair a lista de conselheiros escolares:
+* execute o comando abaixo para extrair a lista de conselheiros escolares:  
   `scrapy crawl academics -o counselors.csv:csv `
 
 A lista de conselheiros estará um um arquivo chamado `counselors.csv` na mesma pasta onde o comando acima foi executado 

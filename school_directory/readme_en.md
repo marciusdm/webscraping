@@ -32,9 +32,9 @@ Here, the name, email, position and phone number are extracted and a CSV file is
  and extract the contentes of the downloaded file to the root directory of the virtual environment 
 * Install the Scrapy library through the command:  
  `pip install scrapy`
-* navigate to the *counselinginfo* directory:
+* navigate to the *counselinginfo* directory:  
    `cd counselinginfo`
-* run the following command in order to extract the school counselors list:
+* run the following command in order to extract the school counselors list:  
   `scrapy crawl academics -o counselors.csv:csv `
 
 This list will be located in a file called 'counselors.csv' in the same directory where the command was run.
